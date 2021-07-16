@@ -1,9 +1,18 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
+    "_children_": [],
     "_height_": {
         "type": "string",
         "value": "100dp"
+    },
+    "_iphone_": {},
+    "_left_": {
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -11,7 +20,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -19,29 +28,103 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sf76275b9da64e2baa19b35ac0d0fb6c",
+    "_skin_": "sa2d4f677bb347ea99ba8c4c995f5012",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spabb_": {},
+    "_spaip_": {},
     "_top_": {
-        "type": "string",
+        "type": "number",
         "value": "0"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
+    "_windows8_": {},
+    "_winphone8_": {},
+    "areflexpropsreferenced": false,
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
     "clipbounds": true,
-    "containerweight": 100,
+    "containerweight": 0,
+    "dataDiffs": {
+        "HeaderComponent": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "ce380558880d456999138e7a63f7203e",
+                "srcKUID": "afb0a505bb3d4dbb877bc647100c7932",
+                "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "100dp"
+                }
+            },
+            "left": {
+                "Default": {
+                    "type": "number",
+                    "value": "0"
+                }
+            },
+            "top": {
+                "Default": {
+                    "type": "number",
+                    "value": "0"
+                }
+            }
+        },
+        "HeaderFlxCotainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "da6a652ab5fb4b1ab10fb4fb1cc8741c",
+                "srcKUID": "e485d041570b41ad8cfa1d3290420271",
+                "wType": "FlexContainer"
+            }
+        },
+        "MainTxt": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "g091041265524382a28cae151feeb326",
+                "srcKUID": "hd0b696ee3f84ffe992990886c1a164a",
+                "wType": "Label"
+            }
+        },
+        "SignInBtn": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "a6eebcd3dfed43b4a57a23544bde3640",
+                "srcKUID": "ea57619af25a4c19adb21e099a8dad1d",
+                "wType": "Label"
+            }
+        },
+        "SubTxt": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e21f85cbc36a4b139c65884c71eb1b5a",
+                "srcKUID": "e051dfa2ae7f468a956064b34d185857",
+                "wType": "Label"
+            }
+        }
+    },
     "enablescrolling": true,
-    "id": "headerComponent",
+    "id": "HeaderComponent",
     "info": null,
     "iscustomlayout": false,
+    "isdatareferenced": false,
     "isvisible": true,
-    "kuid": "gd190f2ed6d14fff8d87e515cc7d7abf",
+    "kuid": "ce380558880d456999138e7a63f7203e",
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
     "parent": "viewCarScrollContainer",
     "pf": "frmViewCar",
     "retaincontentalignment": false,
@@ -49,6 +132,6 @@
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1
+    "sourceUserWidget": "afb0a505bb3d4dbb877bc647100c7932",
+    "wType": "UserWidgetInstance"
 }
