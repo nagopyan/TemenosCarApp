@@ -11,24 +11,6 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "fbbdc1c666424c6abbf7233553736f82",
-                    "originalPropertyKey": "onSelection",
-                    "propertyIndex": 1,
-                    "propertyKey": "makeOnSelect",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "action",
-                        "displayName": "makeOnSelect",
-                        "srcWidget": "listMake",
-                        "type": "action",
-                        "uiRepresentation": "Label-Label-Button-Button",
-                        "wType": "ListBox"
-                    },
-                    "srcWgtKUID": "a4307d565c8d4af4926015dd72d278d6"
-                },
-                {
-                    "access": "Enable",
-                    "group": "General",
                     "kuid": "a1038df5639845e496c924cad5c4bcc3",
                     "originalPropertyKey": "onSelection",
                     "propertyIndex": 2,
@@ -127,29 +109,6 @@
         "properties": {
             "custom": [],
             "passthrough": [
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "d93d294268454c53ab824ba329ae8e13",
-                    "originalPropertyKey": "value",
-                    "propertyIndex": 1,
-                    "propertyKey": "listMakeValue",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "widget",
-                        "defaultValue": 0,
-                        "dependentKeysKUIDs": null,
-                        "displayName": "listMakeValue",
-                        "isDependentProp": true,
-                        "originalParentKey": "blur",
-                        "parentKey": "blur",
-                        "srcWidget": "listMake",
-                        "type": "integer",
-                        "uiRepresentation": "Label-Slider-Textbox",
-                        "wType": "ListBox"
-                    },
-                    "srcWgtKUID": "a4307d565c8d4af4926015dd72d278d6"
-                },
                 {
                     "access": "Enable",
                     "group": "General",

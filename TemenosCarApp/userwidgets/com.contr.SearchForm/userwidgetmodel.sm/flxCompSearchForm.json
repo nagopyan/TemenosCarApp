@@ -41,8 +41,6 @@
     },
     "children": [
         "lblSearchForm",
-        "lblCarMake",
-        "listMake",
         "lblModel",
         "listModel",
         "lblFuelType",
