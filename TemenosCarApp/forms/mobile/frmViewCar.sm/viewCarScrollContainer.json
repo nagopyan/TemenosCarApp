@@ -38,7 +38,7 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "headerComponent",
+        "HeaderComponent",
         "imageContainer",
         "carOfferDetails",
         "btnContainer"
@@ -62,6 +62,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "reverselayoutdirection": false,
     "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
