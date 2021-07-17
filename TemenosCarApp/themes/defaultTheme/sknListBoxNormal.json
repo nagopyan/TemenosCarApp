@@ -5,15 +5,21 @@
   "androidwearos": {
     "font_name": "default"
   },
-  "background_color": "00000000",
+  "background_color": "ebebebff",
   "bg_type": "one",
-  "border_color": "000000ff",
-  "border_style": "plain",
+  "border_color": "33333300",
+  "border_radius": 10,
+  "border_style": "custom",
   "border_type": 0,
   "border_width": 2,
   "desktopweb": {
     "font_name": "Helvetica"
   },
+  "font_color": "333333ff",
+  "font_name": "iphoneSystem",
+  "font_size": 107,
+  "font_style": "normal",
+  "font_weight": "normal",
   "ipad": {
     "font_name": "System"
   },
@@ -24,7 +30,7 @@
   "kiosk": {
     "font_name": "None"
   },
-  "kuid": "s669b958996d45d7ad5fa53bef04c17f",
+  "kuid": "sc30d307079d4a29a12fdb1ae8606548",
   "spaan": {
     "font_name": "Helvetica"
   },
@@ -49,7 +55,7 @@
   "tabrcandroid": {
     "font_name": "default"
   },
-  "wType": "FlexContainer",
+  "wType": "ListBox",
   "watchos": {
     "font_name": "System"
   },
