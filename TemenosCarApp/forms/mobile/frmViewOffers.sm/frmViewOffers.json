@@ -30,7 +30,7 @@
     },
     "canUpdateUI": true,
     "children": [
-        "TestBtnAdded"
+       
     ],
     "containerweight": 100,
     "controllerInfo": {
