@@ -1,0 +1,103 @@
+{
+    "HEAD": "w69887b48e0f489db66cbb47d981204b",
+    "w09bc2f7690f497eb1e1922db31f26b6": {
+        "children": [
+            "w98882a6fbf44440949ec4b77a995e55"
+        ],
+        "kuid": "w09bc2f7690f497eb1e1922db31f26b6",
+        "name": "js",
+        "parent": "w224c3f7630c4b48a6624b57de8187d4",
+        "type": "D"
+    },
+    "w224c3f7630c4b48a6624b57de8187d4": {
+        "children": [
+            "w2f11cef590447cb94455a24fbbd1a4f",
+            "w39495ca2e64494491089c0e9d416dc1",
+            "w968cbdacd4c4972b3557667a6da2765",
+            "w09bc2f7690f497eb1e1922db31f26b6"
+        ],
+        "kuid": "w224c3f7630c4b48a6624b57de8187d4",
+        "name": "www",
+        "parent": "w69887b48e0f489db66cbb47d981204b",
+        "type": "D"
+    },
+    "w24bb6894f474bcba8d0e1ac5d66ed8a": {
+        "extension": "xml",
+        "kuid": "w24bb6894f474bcba8d0e1ac5d66ed8a",
+        "name": "config.xml",
+        "parent": "w69887b48e0f489db66cbb47d981204b",
+        "type": "F"
+    },
+    "w2f11cef590447cb94455a24fbbd1a4f": {
+        "children": [
+            "w72b3498f2a34b4cac320f046fa75407"
+        ],
+        "kuid": "w2f11cef590447cb94455a24fbbd1a4f",
+        "name": "css",
+        "parent": "w224c3f7630c4b48a6624b57de8187d4",
+        "type": "D"
+    },
+    "w39495ca2e64494491089c0e9d416dc1": {
+        "children": [
+            "w8ce777f8b9f41b8bfb7e8c29026ac29"
+        ],
+        "kuid": "w39495ca2e64494491089c0e9d416dc1",
+        "name": "img",
+        "parent": "w224c3f7630c4b48a6624b57de8187d4",
+        "type": "D"
+    },
+    "w55d7dd9c8c34b3ca9e635fa2032e3d8": {
+        "extension": "md",
+        "kuid": "w55d7dd9c8c34b3ca9e635fa2032e3d8",
+        "name": "README.md",
+        "parent": "wcc552d6eea949778358430597ed10ec",
+        "type": "F"
+    },
+    "w69887b48e0f489db66cbb47d981204b": {
+        "children": [
+            "w24bb6894f474bcba8d0e1ac5d66ed8a",
+            "wcc552d6eea949778358430597ed10ec",
+            "w224c3f7630c4b48a6624b57de8187d4"
+        ],
+        "kuid": "w69887b48e0f489db66cbb47d981204b",
+        "name": "cordova",
+        "type": "C"
+    },
+    "w72b3498f2a34b4cac320f046fa75407": {
+        "extension": "css",
+        "kuid": "w72b3498f2a34b4cac320f046fa75407",
+        "name": "index.css",
+        "parent": "w2f11cef590447cb94455a24fbbd1a4f",
+        "type": "F"
+    },
+    "w8ce777f8b9f41b8bfb7e8c29026ac29": {
+        "extension": "png",
+        "kuid": "w8ce777f8b9f41b8bfb7e8c29026ac29",
+        "name": "logo.png",
+        "parent": "w39495ca2e64494491089c0e9d416dc1",
+        "type": "F"
+    },
+    "w968cbdacd4c4972b3557667a6da2765": {
+        "extension": "html",
+        "kuid": "w968cbdacd4c4972b3557667a6da2765",
+        "name": "index.html",
+        "parent": "w224c3f7630c4b48a6624b57de8187d4",
+        "type": "F"
+    },
+    "w98882a6fbf44440949ec4b77a995e55": {
+        "extension": "js",
+        "kuid": "w98882a6fbf44440949ec4b77a995e55",
+        "name": "index.js",
+        "parent": "w09bc2f7690f497eb1e1922db31f26b6",
+        "type": "F"
+    },
+    "wcc552d6eea949778358430597ed10ec": {
+        "children": [
+            "w55d7dd9c8c34b3ca9e635fa2032e3d8"
+        ],
+        "kuid": "wcc552d6eea949778358430597ed10ec",
+        "name": "hooks",
+        "parent": "w69887b48e0f489db66cbb47d981204b",
+        "type": "D"
+    }
+}
