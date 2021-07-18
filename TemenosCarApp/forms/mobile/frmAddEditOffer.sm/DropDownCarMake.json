@@ -46,15 +46,15 @@
     "masterdata": [
         [
             "lb1",
-            "Placeholder One"
+            "Tesla"
         ],
         [
             "lb2",
-            "Placeholder Two"
+            "BMW"
         ],
         [
             "lb3",
-            "Placeholder Three"
+            "Opel"
         ]
     ],
     "name": "kony.ui.ListBox",
@@ -62,9 +62,12 @@
     "pf": "frmAddEditOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "selectedkey": null,
+    "selectedkey": "lb1",
     "selectedkeys": null,
-    "selectedkeyvalue": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "Tesla"
+    ],
     "selectedkeyvalues": null,
     "size": 18,
     "viewconfig": {
