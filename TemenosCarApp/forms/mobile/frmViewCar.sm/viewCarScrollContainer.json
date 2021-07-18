@@ -40,8 +40,7 @@
     "children": [
         "headerComponent",
         "imageContainer",
-        "carOfferDetails",
-        "btnContainer"
+        "carOfferDetails"
     ],
     "clipbounds": true,
     "containerweight": 100,
