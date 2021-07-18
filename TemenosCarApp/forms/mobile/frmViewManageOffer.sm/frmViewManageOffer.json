@@ -30,7 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerComp"
+        "headerComp",
+        "viewCarScrollContainer"
     ],
     "containerweight": 100,
     "controllerInfo": {

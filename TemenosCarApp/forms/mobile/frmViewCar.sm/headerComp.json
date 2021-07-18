@@ -2,12 +2,17 @@
     "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_android_": {},
+    "_androidwearos_": {},
     "_children_": [],
+    "_desktopweb_": {},
     "_height_": {
         "type": "string",
         "value": "100%"
     },
+    "_ipad_": {},
     "_iphone_": {},
+    "_kiosk_": {},
     "_left_": {
         "type": "string",
         "value": "0dp"
@@ -27,6 +32,17 @@
     ],
     "_percent_": true,
     "_skin_": "sf76275b9da64e2baa19b35ac0d0fb6c",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spaandroidtablet_": {},
+    "_spabb_": {},
+    "_spaip_": {},
+    "_spaipad_": {},
+    "_spamobile_": {},
+    "_spatablet_": {},
+    "_spawindowstablet_": {},
+    "_spawinphone8_": {},
+    "_tabrcandroid_": {},
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -38,6 +54,10 @@
         "type": "string",
         "value": "100%"
     },
+    "_windows10_": {},
+    "_windows8_": {},
+    "_winphone10_": {},
+    "_winphone8_": {},
     "areflexpropsreferenced": false,
     "autogrowmode": 0,
     "canUpdateUI": true,
