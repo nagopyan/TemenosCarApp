@@ -12,6 +12,15 @@ define({
     this.view.lblModel.text = offer.model;
     this.view.lblYear.text = offer.year;
     this.view.lblFuelType = offer.fuel;
+    
+    this.view.btnEdit.onClick = this.navigate;
+  },
+  
+   navigate:function(){
+    var nav = new kony.mvc.Navigation("frmAddEditOffer");
+    nav.navigate();
   }
 
  });
+  
+ 
