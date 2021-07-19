@@ -15,7 +15,6 @@ define(function() {
             "width": "100%"
         }, controller.args[0], "OfferList"), extendConfig({}, controller.args[1], "OfferList"), extendConfig({}, controller.args[2], "OfferList"));
         OfferList.setDefaultUnit(kony.flex.DP);
-        kony.mvc.registry.add('RowTamplateCustom', 'RowTamplateCustom', 'RowTamplateCustomController');
         var SegmentListOffers = new kony.ui.SegmentedUI2(extendConfig({
             "autogrowMode": kony.flex.AUTOGROW_NONE,
             "centerX": "50%",
