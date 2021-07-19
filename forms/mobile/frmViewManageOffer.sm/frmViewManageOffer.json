@@ -33,7 +33,7 @@
         "headerComp",
         "imageContainer",
         "carOfferDetails",
-        "BackArrow"
+        "btnContainer"
     ],
     "containerweight": 100,
     "controllerInfo": {
