@@ -1,0 +1,167 @@
+{
+    "classname": "SearchForm",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a1038df5639845e496c924cad5c4bcc3",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 2,
+                    "propertyKey": "modelOnSelect",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "modelOnSelect",
+                        "srcWidget": "listModel",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "i429f5d7e49646a681aac20785951f47"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d7fffbdff9e94906854d7d119a3b6c6e",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 3,
+                    "propertyKey": "fuelOnSelect",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "fuelOnSelect",
+                        "srcWidget": "listFuelType",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "eb9e5a23d9064e73aa7c28aafa1ec922"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aad9ea0afd064d7f834ab2cf90b8c672",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 4,
+                    "propertyKey": "btnFindCarOnClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "btnFindCarOnClick",
+                        "srcWidget": "btnFindCar",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "def0059f8f5444319015adc3d963e770"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ccc36d17072a43e99f921565e50b291c",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 5,
+                    "propertyKey": "calendarFromOnSelect",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "calendarFromOnSelect",
+                        "srcWidget": "calendarYearFrom",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "e15565523cc44ae4bad7a4cbba8f3704"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a8e8ab83f98d4315ab1b0b6413654456",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 6,
+                    "propertyKey": "calendarToOnSelect",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "calendarToOnSelect",
+                        "srcWidget": "calendarYearTo",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Calendar"
+                    },
+                    "srcWgtKUID": "d5344ee52fe14875abe63a3bcd57389a"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a0073d4309cc442094816f94cecae694",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 2,
+                    "propertyKey": "listModelValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "listModelValue",
+                        "isDependentProp": true,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur1",
+                        "srcWidget": "listModel",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "i429f5d7e49646a681aac20785951f47"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "h10aa827951b426eb463ab2f2a7262a2",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 3,
+                    "propertyKey": "listFuelTypeValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "listFuelTypeValue",
+                        "isDependentProp": true,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur2",
+                        "srcWidget": "listFuelType",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "eb9e5a23d9064e73aa7c28aafa1ec922"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.contr",
+    "version": "1.0.0"
+}

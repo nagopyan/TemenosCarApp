@@ -1,0 +1,124 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_iphone_": {},
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sf76275b9da64e2baa19b35ac0d0fb6c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_vizProps_": {
+        "hidewidgethierarchy": false
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": false,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "btnLogin": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j8f4e2e33a71450e8b231ef525b77a16",
+                "srcKUID": "cb9126cac9004dd596096588497d3c15",
+                "wType": "Button"
+            }
+        },
+        "flxLoginComp": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bd2d2033d638495faf4e708afb02e205",
+                "srcKUID": "bb6a380ca7d94a118c239eafe6cef1ea",
+                "wType": "FlexContainer"
+            }
+        },
+        "lblPassword": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "d93b4858d28149b58d70a96f7d9eb628",
+                "srcKUID": "c716bbc268a44a75a0abdadb3adc17fa",
+                "wType": "Label"
+            }
+        },
+        "lblUsername": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "jbd931bad8f54ac2b6c874f22f607e70",
+                "srcKUID": "i616867a3ab343ceb2c18e3d7862d83c",
+                "wType": "Label"
+            }
+        },
+        "loginComp": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "eea7322f027b481393be69e8bdab4ec4",
+                "srcKUID": "b99df13087bd4979a1e4cbaf1bba6768",
+                "wType": "FlexContainer"
+            }
+        },
+        "txtPassword": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "dc488a1473d44564986d1836f41bde37",
+                "srcKUID": "aba6c3ecc3234f299768ede10c7bd7da",
+                "wType": "TextField"
+            }
+        },
+        "txtUsername": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c34b6e72e1d44a149198300e687d967e",
+                "srcKUID": "eee0b08f5b9343e4ad87f84efb6d3dc6",
+                "wType": "TextField"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "loginComp",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "eea7322f027b481393be69e8bdab4ec4",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmLogin",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "b99df13087bd4979a1e4cbaf1bba6768",
+    "wType": "UserWidgetInstance"
+}
