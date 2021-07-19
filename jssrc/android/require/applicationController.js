@@ -31,6 +31,7 @@ define({
             "classname": "OfferList",
             "name": "noContr.OfferList"
         });
+        kony.mvc.registry.add("RowFlexContainer", "RowFlexContainer", "RowFlexContainerController");
         kony.mvc.registry.add("flxSampleRowTemplate", "flxSampleRowTemplate", "flxSampleRowTemplateController");
         kony.mvc.registry.add("flxSectionHeaderTemplate", "flxSectionHeaderTemplate", "flxSectionHeaderTemplateController");
         kony.mvc.registry.add("frmAddEditOffer", "frmAddEditOffer", "frmAddEditOfferController");

@@ -34,14 +34,7 @@ define("frmSearchList", function() {
                 "skin": "slFbox",
                 "top": "0dp",
                 "width": "100%",
-                "overrides": {
-                    "OfferListScrollContainer": {
-                        "bottom": "viz.val_cleared",
-                        "height": "86.56%",
-                        "top": "28%",
-                        "width": "90%"
-                    }
-                }
+                "overrides": {}
             }, {
                 "overrides": {}
             }, {
