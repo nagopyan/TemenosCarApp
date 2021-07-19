@@ -22,11 +22,11 @@
         0,
         0
     ],
-    "_skin_": "sf60741d69d9428f9b22fcc8b472d8f4",
-    "_text_": "Offer Title",
+    "_skin_": "s446b16f00344c108b030a60060a15b3",
+    "_text_": "Make, model",
     "_top_": {
         "type": "string",
-        "value": "10%"
+        "value": "40%"
     },
     "_width_": {
         "type": "ref",
@@ -40,9 +40,10 @@
         }
     },
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "LblOfferTitle",
+    "id": "LblMakeModel",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,10 +57,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "cf229f9ab425421cb4a158c646e88b61",
+    "kuid": "ea91ca51d5bd44a5a854cf517d7a0e61",
     "name": "kony.ui.Label",
-    "parent": "ContentFlexContainer",
-    "pf": "userwidgetmodel",
+    "parent": "RowFlexContainer",
+    "pf": "RowTamplateCustom",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

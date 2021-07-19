@@ -38,12 +38,12 @@
         "type": "string",
         "value": "50%"
     },
+    "containerId": true,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "uwuc12125e96184004b340459fd257cf83",
         "platform": "iphone",
-        "templateType": "userwidgets",
+        "templateType": "segments",
         "topLevelBox": null
     },
     "id": "CarImage",
@@ -51,10 +51,10 @@
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d656be378fc245d0b6edcccda448c673",
+    "kuid": "a679a81d62f645f590ecad1f596be8c0",
     "name": "kony.ui.Image2",
-    "parent": "ContentFlexContainer",
-    "pf": "userwidgetmodel",
+    "parent": "RowFlexContainer",
+    "pf": "RowTamplateCustom",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,

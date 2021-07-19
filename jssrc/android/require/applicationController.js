@@ -13,12 +13,6 @@ define({
             "classname": "SearchForm",
             "name": "com.contr.SearchForm"
         });
-        kony.mvc.registry.add("noContr.OfferList", "OfferList", "OfferListController");
-        kony.application.registerMaster({
-            "namespace": "noContr",
-            "classname": "OfferList",
-            "name": "noContr.OfferList"
-        });
         kony.mvc.registry.add("noContr.headerComp", "headerComp", "headerCompController");
         kony.application.registerMaster({
             "namespace": "noContr",
@@ -31,6 +25,13 @@ define({
             "classname": "loginComp",
             "name": "noContr.loginComp"
         });
+        kony.mvc.registry.add("noContr.OfferList", "OfferList", "OfferListController");
+        kony.application.registerMaster({
+            "namespace": "noContr",
+            "classname": "OfferList",
+            "name": "noContr.OfferList"
+        });
+        kony.mvc.registry.add("RowFlexContainer", "RowFlexContainer", "RowFlexContainerController");
         kony.mvc.registry.add("flxSampleRowTemplate", "flxSampleRowTemplate", "flxSampleRowTemplateController");
         kony.mvc.registry.add("flxSectionHeaderTemplate", "flxSectionHeaderTemplate", "flxSectionHeaderTemplateController");
         kony.mvc.registry.add("frmAddEditOffer", "frmAddEditOffer", "frmAddEditOfferController");

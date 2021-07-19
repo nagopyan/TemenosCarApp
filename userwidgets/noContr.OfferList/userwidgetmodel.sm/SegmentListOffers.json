@@ -1,0 +1,352 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "SegmentListOffers",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "e8387751fd454a138cf4da6f44d8fe18",
+    "masterdata": {},
+    "mobile": {
+        "_data_": [
+            {
+                "CarImage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "LblFuelType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Fuel: Fuel Type"
+                },
+                "LblMakeModel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Make, model"
+                },
+                "LblOfferTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Offer Title"
+                },
+                "LblYear": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Year"
+                }
+            },
+            {
+                "CarImage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "LblFuelType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Fuel: Fuel Type"
+                },
+                "LblMakeModel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Make, model"
+                },
+                "LblOfferTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Offer Title"
+                },
+                "LblYear": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Year"
+                }
+            },
+            {
+                "CarImage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "LblFuelType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Fuel: Fuel Type"
+                },
+                "LblMakeModel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Make, model"
+                },
+                "LblOfferTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Offer Title"
+                },
+                "LblYear": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Year"
+                }
+            },
+            {
+                "CarImage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "LblFuelType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Fuel: Fuel Type"
+                },
+                "LblMakeModel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Make, model"
+                },
+                "LblOfferTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Offer Title"
+                },
+                "LblYear": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Year"
+                }
+            },
+            {
+                "CarImage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "LblFuelType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Fuel: Fuel Type"
+                },
+                "LblMakeModel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Make, model"
+                },
+                "LblOfferTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Offer Title"
+                },
+                "LblYear": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Year"
+                }
+            },
+            {
+                "CarImage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "LblFuelType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Fuel: Fuel Type"
+                },
+                "LblMakeModel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Make, model"
+                },
+                "LblOfferTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Offer Title"
+                },
+                "LblYear": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Year"
+                }
+            },
+            {
+                "CarImage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "LblFuelType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Fuel: Fuel Type"
+                },
+                "LblMakeModel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Make, model"
+                },
+                "LblOfferTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Offer Title"
+                },
+                "LblYear": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Year"
+                }
+            },
+            {
+                "CarImage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "LblFuelType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Fuel: Fuel Type"
+                },
+                "LblMakeModel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Make, model"
+                },
+                "LblOfferTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Offer Title"
+                },
+                "LblYear": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Year"
+                }
+            },
+            {
+                "CarImage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "LblFuelType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Fuel: Fuel Type"
+                },
+                "LblMakeModel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Make, model"
+                },
+                "LblOfferTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Offer Title"
+                },
+                "LblYear": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Year"
+                }
+            },
+            {
+                "CarImage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "imagedrag.png"
+                },
+                "LblFuelType": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Fuel: Fuel Type"
+                },
+                "LblMakeModel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Make, model"
+                },
+                "LblOfferTitle": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Offer Title"
+                },
+                "LblYear": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "Year"
+                }
+            }
+        ],
+        "rowTemplateId": "fa9d0905e6714b7fa04c877565c33be0",
+        "rowtemplate": "RowFlexContainer",
+        "widgetdatamap": {
+            "CarImage": "CarImage",
+            "LblFuelType": "LblFuelType",
+            "LblMakeModel": "LblMakeModel",
+            "LblOfferTitle": "LblOfferTitle",
+            "LblYear": "LblYear",
+            "RowFlexContainer": "RowFlexContainer"
+        }
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "OfferList",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowcounter": 9,
+    "rowfocusskin": "sa9fc3d48ead4d9f97724d6181694982",
+    "rowskin": "se6f09bfcb2f4401807e3cfd6bce417c",
+    "rowtemplate": null,
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s997fab63a084597a49a8c712ba2e3b8",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "CarImage": "CarImage",
+        "LblFuelType": "LblFuelType",
+        "LblMakeModel": "LblMakeModel",
+        "LblOfferTitle": "LblOfferTitle",
+        "LblYear": "LblYear",
+        "RowFlexContainer": "RowFlexContainer"
+    },
+    "zindex": 1
+}

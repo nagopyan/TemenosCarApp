@@ -36,7 +36,7 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "OfferListScrollContainer"
+        "SegmentListOffers"
     ],
     "clipbounds": true,
     "containerweight": 100,

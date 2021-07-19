@@ -22,7 +22,6 @@ define("frmViewOffers", function() {
                 "overrides": {}
             });
             var OfferList = new noContr.OfferList({
-                "autogrowMode": kony.flex.AUTOGROW_NONE,
                 "clipBounds": true,
                 "height": "100%",
                 "id": "OfferList",
@@ -35,9 +34,8 @@ define("frmViewOffers", function() {
                 "top": "0dp",
                 "width": "100%",
                 "overrides": {
-                    "OfferListScrollContainer": {
-                        "top": "20%",
-                        "width": "90%"
+                    "SegmentListOffers": {
+                        "top": "25%"
                     }
                 }
             }, {

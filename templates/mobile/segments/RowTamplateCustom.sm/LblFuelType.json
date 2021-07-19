@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "s446b16f00344c108b030a60060a15b3",
-    "_text_": "Make, model",
+    "_text_": "Fuel: Fuel Type",
     "_top_": {
         "type": "string",
-        "value": "40%"
+        "value": "65%"
     },
     "_width_": {
         "type": "ref",
@@ -40,9 +40,10 @@
         }
     },
     "canUpdateUI": true,
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "LblMakeModel",
+    "id": "LblFuelType",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,10 +57,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "gd41410e55164a18b9e995eb43da6edc",
+    "kuid": "a6190f68a4fd4ed586d107e5903d328e",
     "name": "kony.ui.Label",
-    "parent": "ContentFlexContainer",
-    "pf": "userwidgetmodel",
+    "parent": "RowFlexContainer",
+    "pf": "RowTamplateCustom",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
