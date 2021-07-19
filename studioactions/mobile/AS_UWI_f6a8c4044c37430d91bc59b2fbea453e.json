@@ -1,0 +1,38 @@
+{
+    "AS_UWI_f6a8c4044c37430d91bc59b2fbea453e": {
+        "id": "AS_UWI_f6a8c4044c37430d91bc59b2fbea453e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLandingSearchScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j50b525f57e5433f8b7de3bbc7e68f68"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___eda25bcd27794f5c8dfeedeaf9e9b5ef",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmSearchList",
+            "friendlyName": "frmSearchList",
+            "formKUID": "b05e4b914cab44b4b87272905a806747",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"onTouchStart\",\n        \"widgetId\": \"SearchForm\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

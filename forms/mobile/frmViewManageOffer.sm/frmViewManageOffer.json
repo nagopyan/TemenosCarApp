@@ -30,7 +30,10 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerComp"
+        "headerComp",
+        "imageContainer",
+        "carOfferDetails",
+        "BackArrow"
     ],
     "containerweight": 100,
     "controllerInfo": {

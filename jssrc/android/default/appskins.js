@@ -49,6 +49,7 @@ function skinsInit() {
     seg2Focus = "seg2Focus";
     seg2Normal = "seg2Normal";
     sknAddOfferBtn = "sknAddOfferBtn";
+    SknBackArrow = "SknBackArrow";
     sknCarDetailLableSkin = "sknCarDetailLableSkin";
     SknContainerInList = "SknContainerInList";
     sknEditButton = "sknEditButton";
