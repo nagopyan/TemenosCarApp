@@ -31,6 +31,17 @@ define("userfrmSearchListController", {
     preShow: function() {
         this.formatedSegmentData.call(this, this.OffersDb, this.formatedData);
         this.view.OfferList.SegmentListOffers.setData(this.formatedData);
+        this.view.btnChange.onClick = this.navigate;
+        this.view.OfferList.SegmentListOffers.onRowClick = this.onRowClicked;
+    },
+    onRowClicked: function(seguiWidget, sectionNumber, rowNumber, selectedState) {
+        kony.store.setItem("OfferDetails", this.OffersDb[rowNumber]);
+        var ntf = new kony.mvc.Navigation("frmViewCar");
+        ntf.navigate();
+    },
+    navigate: function() {
+        var nav = new kony.mvc.Navigation("frmLandingSearchScreen");
+        nav.navigate();
     },
     formatedSegmentData: function(responseData, fomratedData) {
         var scope = this;
