@@ -12,6 +12,7 @@ define("frmAddEditOffer", function() {
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_DEFAULT,
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "0dp",
                 "width": "100%",
                 "overrides": {}
@@ -34,6 +35,7 @@ define("frmAddEditOffer", function() {
                 "left": "0dp",
                 "pagingEnabled": false,
                 "scrollDirection": kony.flex.SCROLL_VERTICAL,
+                "skin": "slFSbox",
                 "top": "0dp",
                 "verticalScrollIndicator": true,
                 "width": "100%",
@@ -63,6 +65,7 @@ define("frmAddEditOffer", function() {
             var TextFieldOfferTitle = new kony.ui.TextBox2({
                 "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
                 "centerX": "50%",
+                "focusSkin": "defTextBoxFocus",
                 "height": "5%",
                 "id": "TextFieldOfferTitle",
                 "isVisible": true,
@@ -70,6 +73,7 @@ define("frmAddEditOffer", function() {
                 "left": 0,
                 "placeholder": "Placeholder",
                 "secureTextEntry": false,
+                "skin": "SknTxtField",
                 "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
                 "top": "0.50%",
                 "width": "95%",
@@ -82,6 +86,7 @@ define("frmAddEditOffer", function() {
             }, {
                 "autoFilter": false,
                 "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DEFAULT,
+                "placeholderSkin": "defTextBoxPlaceholder",
                 "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
             });
             var LblImageUrl = new kony.ui.Label({
@@ -107,6 +112,7 @@ define("frmAddEditOffer", function() {
             var TextFieldImageUrl = new kony.ui.TextBox2({
                 "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
                 "centerX": "50%",
+                "focusSkin": "defTextBoxFocus",
                 "height": "5%",
                 "id": "TextFieldImageUrl",
                 "isVisible": true,
@@ -114,6 +120,7 @@ define("frmAddEditOffer", function() {
                 "left": 0,
                 "placeholder": "Placeholder",
                 "secureTextEntry": false,
+                "skin": "SknTxtField",
                 "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
                 "top": "0.50%",
                 "width": "95%",
@@ -126,6 +133,7 @@ define("frmAddEditOffer", function() {
             }, {
                 "autoFilter": false,
                 "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DEFAULT,
+                "placeholderSkin": "defTextBoxPlaceholder",
                 "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
             });
             var lblCarMake = new kony.ui.Label({
@@ -150,6 +158,7 @@ define("frmAddEditOffer", function() {
             });
             var DropDownCarMake = new kony.ui.ListBox({
                 "centerX": "50%",
+                "focusSkin": "sknListBoxFocus",
                 "height": "5%",
                 "id": "DropDownCarMake",
                 "isVisible": true,
@@ -158,6 +167,7 @@ define("frmAddEditOffer", function() {
                     ["lb2", "Placeholder Two"],
                     ["lb3", "Placeholder Three"]
                 ],
+                "skin": "sknListBoxNormal",
                 "top": "0%",
                 "width": "95%",
                 "zIndex": 1
@@ -193,6 +203,7 @@ define("frmAddEditOffer", function() {
             });
             var DropDownCarModel = new kony.ui.ListBox({
                 "centerX": "50%",
+                "focusSkin": "sknListBoxFocus",
                 "height": "5%",
                 "id": "DropDownCarModel",
                 "isVisible": true,
@@ -201,6 +212,7 @@ define("frmAddEditOffer", function() {
                     ["lb2", "Placeholder Two"],
                     ["lb3", "Placeholder Three"]
                 ],
+                "skin": "sknListBoxNormal",
                 "top": "0%",
                 "width": "95%",
                 "zIndex": 1
@@ -235,6 +247,7 @@ define("frmAddEditOffer", function() {
                 "textCopyable": false
             });
             var DropDownFuelType = new kony.ui.ListBox({
+                "focusSkin": "sknListBoxFocus",
                 "height": "5%",
                 "id": "DropDownFuelType",
                 "isVisible": true,
@@ -244,6 +257,7 @@ define("frmAddEditOffer", function() {
                     ["lb2", "Placeholder Two"],
                     ["lb3", "Placeholder Three"]
                 ],
+                "skin": "sknListBoxNormal",
                 "top": "0%",
                 "width": "40%",
                 "zIndex": 1
@@ -324,12 +338,14 @@ define("frmAddEditOffer", function() {
             var TxtAreaDescription = new kony.ui.TextArea2({
                 "autoCapitalize": constants.TEXTAREA_AUTO_CAPITALIZE_NONE,
                 "centerX": "50%",
+                "focusSkin": "defTextAreaFocus",
                 "height": "15%",
                 "id": "TxtAreaDescription",
                 "isVisible": true,
                 "keyBoardStyle": constants.TEXTAREA_KEY_BOARD_STYLE_DEFAULT,
                 "numberOfVisibleLines": 3,
                 "placeholder": "Placeholder",
+                "skin": "defTextAreaNormal",
                 "textInputMode": constants.TEXTAREA_INPUT_MODE_ANY,
                 "top": 0,
                 "width": "95%",
@@ -338,12 +354,16 @@ define("frmAddEditOffer", function() {
                 "contentAlignment": constants.CONTENT_ALIGN_TOP_LEFT,
                 "padding": [2, 2, 2, 2],
                 "paddingInPixel": false
-            }, {});
+            }, {
+                "placeholderSkin": "defTextAreaPlaceholder"
+            });
             var AddSaveBtn = new kony.ui.Button({
+                "focusSkin": "defBtnFocus",
                 "height": "50dp",
                 "id": "AddSaveBtn",
                 "isVisible": true,
                 "left": "52dp",
+                "skin": "sknEditButton",
                 "text": "Add/Save",
                 "top": "3%",
                 "width": "300dp",

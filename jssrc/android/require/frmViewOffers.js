@@ -12,6 +12,7 @@ define("frmViewOffers", function() {
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_DEFAULT,
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "0dp",
                 "width": "100%",
                 "overrides": {}
@@ -30,6 +31,7 @@ define("frmViewOffers", function() {
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_DEFAULT,
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "0dp",
                 "width": "100%",
                 "overrides": {
@@ -48,6 +50,7 @@ define("frmViewOffers", function() {
                 "id": "LblMyOffers",
                 "isVisible": true,
                 "left": "0dp",
+                "skin": "SknMyOffersLbl",
                 "text": "My Offers",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -67,6 +70,7 @@ define("frmViewOffers", function() {
                 "id": "BtnAddOffer",
                 "isVisible": true,
                 "left": "75%",
+                "skin": "sknAddOfferBtn",
                 "text": "",
                 "textStyle": {
                     "letterSpacing": 0,

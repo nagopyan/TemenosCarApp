@@ -12,6 +12,7 @@ define("frmSearchList", function() {
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_DEFAULT,
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "0dp",
                 "width": "100%",
                 "overrides": {}
@@ -30,6 +31,7 @@ define("frmSearchList", function() {
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_DEFAULT,
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "0dp",
                 "width": "100%",
                 "overrides": {
@@ -49,6 +51,7 @@ define("frmSearchList", function() {
                 "id": "LblSearchContent",
                 "isVisible": true,
                 "left": "10%",
+                "skin": "SknSearchContentLbl",
                 "text": "Search for Tesla, between 2020-2021,Electric",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -68,6 +71,7 @@ define("frmSearchList", function() {
                 "id": "LblSearchResult",
                 "isVisible": true,
                 "left": "10%",
+                "skin": "SknSearchResultLbl",
                 "text": "Found 32 results!",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -84,10 +88,12 @@ define("frmSearchList", function() {
                 "textCopyable": false
             });
             var btnChange = new kony.ui.Button({
+                "focusSkin": "defBtnFocus",
                 "height": "8%",
                 "id": "btnChange",
                 "isVisible": true,
                 "left": "65%",
+                "skin": "sknEditButton",
                 "text": "Change",
                 "top": "14%",
                 "width": "30%",

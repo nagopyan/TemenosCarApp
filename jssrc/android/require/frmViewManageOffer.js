@@ -12,6 +12,7 @@ define("frmViewManageOffer", function() {
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_DEFAULT,
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "0dp",
                 "width": "100%",
                 "overrides": {}
