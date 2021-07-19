@@ -29,7 +29,7 @@
     "device": "iPhoneX",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "id": "SampleRowTemplate",
+    "id": "carOfferRowTemplate",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

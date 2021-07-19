@@ -3,7 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "99.14%"
     },
     "_left_": {
         "type": "string",
@@ -26,7 +26,7 @@
     "_skin_": "saac9797c6844de1b5124cd6bac5f514",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "8dp"
     },
     "_width_": {
         "type": "string",
@@ -42,7 +42,7 @@
         "value": "50%"
     },
     "children": [
-        "ContentFlexContainer"
+        "segOfferTitle"
     ],
     "clipbounds": true,
     "containerweight": 100,

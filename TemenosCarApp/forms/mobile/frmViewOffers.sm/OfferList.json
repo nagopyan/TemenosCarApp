@@ -3,6 +3,7 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_android_": {},
+    "_androidwearos_": {},
     "_children_": [],
     "_height_": {
         "type": "string",
@@ -43,60 +44,13 @@
         "type": "string",
         "value": "100%"
     },
+    "_windows8_": {},
+    "_winphone8_": {},
     "areflexpropsreferenced": false,
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
-        "CarImage": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "c2d7111a672243de9d44890078b5923a",
-                "srcKUID": "d656be378fc245d0b6edcccda448c673",
-                "wType": "Image"
-            }
-        },
-        "ContentFlexContainer": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "ic90abb2da6f4a3889dca70e58ee9c7e",
-                "srcKUID": "d6e6da3197764fdf9baf425c65c598f1",
-                "wType": "FlexContainer"
-            }
-        },
-        "LblFuelType": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "fd4a6e33078e4be4acbb5b04c99e9ca2",
-                "srcKUID": "b18dd84374fa4f62850d47d385c4f180",
-                "wType": "Label"
-            }
-        },
-        "LblMakeModel": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "a1d7de9cee314d4d8577f25617b9ca98",
-                "srcKUID": "gd41410e55164a18b9e995eb43da6edc",
-                "wType": "Label"
-            }
-        },
-        "LblOfferTitle": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "hf2362b9b5e04c3d9860d9640401b298",
-                "srcKUID": "cf229f9ab425421cb4a158c646e88b61",
-                "wType": "Label"
-            }
-        },
-        "LblYear": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "hd6bcce831e449cabab2aacd473afe39",
-                "srcKUID": "cade997d67ba43788c529fc916e1c3a7",
-                "wType": "Label"
-            }
-        },
         "OfferList": {
             "__events__": {},
             "__info__": {
@@ -125,6 +79,23 @@
                     "value": "90%"
                 }
             }
+        },
+        "segOfferTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "c1feb310d70a4e02ae760c45d1510a2f",
+                "srcKUID": "dfa57936d9f14d04931a2b5823c58b9d",
+                "wType": "Segment"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "608dp"
+                }
+            }
         }
     },
     "enablescrolling": true,
@@ -132,6 +103,7 @@
     "info": null,
     "iscustomlayout": false,
     "isdatareferenced": false,
+    "issegmentchild": false,
     "isvisible": true,
     "kuid": "d6526982e7104b27a31e11756c2f5560",
     "layouttype": 2,

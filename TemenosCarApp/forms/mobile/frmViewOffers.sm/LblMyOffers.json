@@ -3,12 +3,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "5%"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5%"
     },
     "_margin_": [
         1,
@@ -26,11 +26,11 @@
     "_text_": "My Offers",
     "_top_": {
         "type": "string",
-        "value": "15%"
+        "value": "15.00%"
     },
     "_width_": {
         "type": "string",
-        "value": "50%"
+        "value": "30%"
     },
     "_wrapping_": 2,
     "android": {
@@ -42,10 +42,10 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "20%"
     },
     "containerweight": 100,
-    "contentalignment": 5,
+    "contentalignment": 4,
     "id": "LblMyOffers",
     "info": null,
     "ipad": {
@@ -62,6 +62,7 @@
     "isvisible": true,
     "kuid": "e21af8c7bd81433a88eaac7cd4b69fb6",
     "name": "kony.ui.Label",
+    "paddinginpixel": false,
     "parent": "frmViewOffers",
     "pf": "frmViewOffers",
     "retaincontentalignment": false,

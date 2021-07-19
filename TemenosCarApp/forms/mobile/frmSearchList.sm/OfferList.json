@@ -49,54 +49,6 @@
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
-        "CarImage": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "b900656c8fd348f4b52144c792db2fe3",
-                "srcKUID": "d656be378fc245d0b6edcccda448c673",
-                "wType": "Image"
-            }
-        },
-        "ContentFlexContainer": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "bb60252758234305b2dc55e4389019f0",
-                "srcKUID": "d6e6da3197764fdf9baf425c65c598f1",
-                "wType": "FlexContainer"
-            }
-        },
-        "LblFuelType": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "de39a888b92e4fcf8333b5fa2b19c1ea",
-                "srcKUID": "b18dd84374fa4f62850d47d385c4f180",
-                "wType": "Label"
-            }
-        },
-        "LblMakeModel": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "ibddc915047d44e3988c06c78b97e0db",
-                "srcKUID": "gd41410e55164a18b9e995eb43da6edc",
-                "wType": "Label"
-            }
-        },
-        "LblOfferTitle": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "g517e6f72a9b465b81e9aaa7fda6bb0e",
-                "srcKUID": "cf229f9ab425421cb4a158c646e88b61",
-                "wType": "Label"
-            }
-        },
-        "LblYear": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "e52efcdf95254451bf4e597dd57578f9",
-                "srcKUID": "cade997d67ba43788c529fc916e1c3a7",
-                "wType": "Label"
-            }
-        },
         "OfferList": {
             "__events__": {},
             "__info__": {
@@ -136,6 +88,14 @@
                     "type": "string",
                     "value": "90%"
                 }
+            }
+        },
+        "segOfferTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "fb7488377927469bb15c402fc2b37c10",
+                "srcKUID": "dfa57936d9f14d04931a2b5823c58b9d",
+                "wType": "Segment"
             }
         }
     },
