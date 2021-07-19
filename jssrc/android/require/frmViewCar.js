@@ -16,6 +16,7 @@ define("frmViewCar", function() {
                 "left": "0dp",
                 "pagingEnabled": false,
                 "scrollDirection": kony.flex.SCROLL_VERTICAL,
+                "skin": "slFSbox",
                 "top": "0dp",
                 "verticalScrollIndicator": true,
                 "width": "100%"
@@ -29,6 +30,7 @@ define("frmViewCar", function() {
                 "isVisible": true,
                 "layoutType": kony.flex.FREE_FORM,
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "0",
                 "width": "100%"
             }, {}, {});
@@ -43,6 +45,7 @@ define("frmViewCar", function() {
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_DEFAULT,
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "0dp",
                 "width": "100%",
                 "overrides": {}
@@ -60,6 +63,7 @@ define("frmViewCar", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0",
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "1%",
                 "width": "100%"
             }, {}, {});
@@ -69,6 +73,7 @@ define("frmViewCar", function() {
                 "id": "carImage",
                 "isVisible": true,
                 "left": "0",
+                "skin": "slImage",
                 "src": "imagedrag.png",
                 "top": "0",
                 "width": "100%"
@@ -85,6 +90,7 @@ define("frmViewCar", function() {
                 "isVisible": true,
                 "layoutType": kony.flex.FLOW_VERTICAL,
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "1%",
                 "width": "100%"
             }, {}, {});
@@ -99,6 +105,7 @@ define("frmViewCar", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0",
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "1%",
                 "width": "100%"
             }, {}, {});
@@ -108,6 +115,7 @@ define("frmViewCar", function() {
                 "id": "lblOfferTitle",
                 "isVisible": true,
                 "left": "5%",
+                "skin": "sknOfferTitle",
                 "text": "Offer title",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -134,6 +142,7 @@ define("frmViewCar", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0dp",
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "1%",
                 "width": "100%"
             }, {}, {});
@@ -143,6 +152,7 @@ define("frmViewCar", function() {
                 "id": "lblMake",
                 "isVisible": true,
                 "left": "5%",
+                "skin": "sknCarDetailLableSkin",
                 "text": "Make",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -161,6 +171,7 @@ define("frmViewCar", function() {
                 "id": "lblModel",
                 "isVisible": true,
                 "left": "15%",
+                "skin": "sknCarDetailLableSkin",
                 "text": "Model",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -179,6 +190,7 @@ define("frmViewCar", function() {
                 "id": "lblYear",
                 "isVisible": true,
                 "right": "5%",
+                "skin": "sknCarDetailLableSkin",
                 "text": "Year",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -202,6 +214,7 @@ define("frmViewCar", function() {
                 "isVisible": true,
                 "layoutType": kony.flex.FLOW_HORIZONTAL,
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "1%",
                 "width": "100%"
             }, {}, {});
@@ -211,6 +224,7 @@ define("frmViewCar", function() {
                 "id": "lblFuel",
                 "isVisible": true,
                 "left": "5%",
+                "skin": "sknCarDetailLableSkin",
                 "text": "Fuel",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -229,6 +243,7 @@ define("frmViewCar", function() {
                 "id": "lblFuelType",
                 "isVisible": true,
                 "left": "2%",
+                "skin": "sknCarDetailLableSkin",
                 "text": "Fuel type",
                 "textStyle": {
                     "letterSpacing": 0,
@@ -246,6 +261,7 @@ define("frmViewCar", function() {
             fuelContainer.add(lblFuel, lblFuelType);
             var textAreaDescription = new kony.ui.TextArea2({
                 "autoCapitalize": constants.TEXTAREA_AUTO_CAPITALIZE_NONE,
+                "focusSkin": "defTextAreaFocus",
                 "height": "30%",
                 "id": "textAreaDescription",
                 "isVisible": true,
@@ -254,6 +270,7 @@ define("frmViewCar", function() {
                 "numberOfVisibleLines": 3,
                 "placeholder": "Placeholder",
                 "right": "1%",
+                "skin": "defTextAreaNormal",
                 "textInputMode": constants.TEXTAREA_INPUT_MODE_ANY,
                 "top": "1%",
                 "width": "98%",
@@ -262,7 +279,9 @@ define("frmViewCar", function() {
                 "contentAlignment": constants.CONTENT_ALIGN_TOP_LEFT,
                 "padding": [4, 2, 2, 2],
                 "paddingInPixel": false
-            }, {});
+            }, {
+                "placeholderSkin": "defTextAreaPlaceholder"
+            });
             carOfferDetails.add(OfferContainer, makeAndModelContainer, fuelContainer, textAreaDescription);
             var btnContainer = new kony.ui.FlexContainer({
                 "autogrowMode": kony.flex.AUTOGROW_NONE,
@@ -273,16 +292,19 @@ define("frmViewCar", function() {
                 "layoutType": kony.flex.FREE_FORM,
                 "left": "0",
                 "isModalContainer": false,
+                "skin": "slFbox",
                 "top": "1%",
                 "width": "100%"
             }, {}, {});
             btnContainer.setDefaultUnit(kony.flex.DP);
             var btnEdit = new kony.ui.Button({
                 "centerY": "50%",
+                "focusSkin": "defBtnFocus",
                 "height": "50dp",
                 "id": "btnEdit",
                 "isVisible": true,
                 "left": "5%",
+                "skin": "sknEditButton",
                 "text": "Edit",
                 "top": "0",
                 "width": "30%"
@@ -294,10 +316,12 @@ define("frmViewCar", function() {
             }, {});
             var btnRemove = new kony.ui.Button({
                 "centerY": "50%",
+                "focusSkin": "defBtnFocus",
                 "height": "50dp",
                 "id": "btnRemove",
                 "isVisible": true,
                 "right": "5%",
+                "skin": "sknRemoveButton",
                 "text": "Remove",
                 "top": "0",
                 "width": "30%"

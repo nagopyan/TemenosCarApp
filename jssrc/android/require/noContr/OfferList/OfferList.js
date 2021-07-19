@@ -10,6 +10,7 @@ define(function() {
             "layoutType": kony.flex.FREE_FORM,
             "left": "0dp",
             "isModalContainer": false,
+            "skin": "slFbox",
             "top": "0dp",
             "width": "100%"
         }, controller.args[0], "OfferList"), extendConfig({}, controller.args[1], "OfferList"), extendConfig({}, controller.args[2], "OfferList"));
@@ -29,6 +30,7 @@ define(function() {
             "left": "0dp",
             "pagingEnabled": false,
             "scrollDirection": kony.flex.SCROLL_VERTICAL,
+            "skin": "slFSbox",
             "top": "0dp",
             "verticalScrollIndicator": true,
             "width": "85%",
@@ -43,6 +45,7 @@ define(function() {
             "isVisible": true,
             "layoutType": kony.flex.FREE_FORM,
             "isModalContainer": false,
+            "skin": "SknContainerInList",
             "top": "2%",
             "width": "100%",
             "zIndex": 1
@@ -54,6 +57,7 @@ define(function() {
             "id": "CarImage",
             "isVisible": true,
             "left": 0,
+            "skin": "slImage",
             "src": "imagedrag.png",
             "top": "5%",
             "width": "25%",
@@ -67,6 +71,7 @@ define(function() {
             "id": "LblOfferTitle",
             "isVisible": true,
             "left": "30%",
+            "skin": "SknOfferTitleInCard",
             "text": "Offer Title",
             "textStyle": {
                 "letterSpacing": 0,
@@ -86,6 +91,7 @@ define(function() {
             "id": "LblMakeModel",
             "isVisible": true,
             "left": "30%",
+            "skin": "SknFuelTypeLbl",
             "text": "Make, model",
             "textStyle": {
                 "letterSpacing": 0,
@@ -105,6 +111,7 @@ define(function() {
             "id": "LblFuelType",
             "isVisible": true,
             "left": "30%",
+            "skin": "SknFuelTypeLbl",
             "text": "Fuel: Fuel Type",
             "textStyle": {
                 "letterSpacing": 0,
@@ -124,6 +131,7 @@ define(function() {
             "id": "LblYear",
             "isVisible": true,
             "right": "10%",
+            "skin": "SknYearLbl",
             "text": "Year",
             "textStyle": {
                 "letterSpacing": 0,

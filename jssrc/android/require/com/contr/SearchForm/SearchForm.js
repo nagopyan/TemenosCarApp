@@ -10,6 +10,7 @@ define(function() {
             "layoutType": kony.flex.FREE_FORM,
             "left": "0dp",
             "isModalContainer": false,
+            "skin": "slFbox",
             "top": "0dp",
             "width": "100%"
         }, controller.args[0], "SearchForm"), extendConfig({}, controller.args[1], "SearchForm"), extendConfig({}, controller.args[2], "SearchForm"));
@@ -25,6 +26,7 @@ define(function() {
             "left": "45dp",
             "maxWidth": "100%",
             "isModalContainer": false,
+            "skin": "slFbox",
             "top": "20%",
             "width": "100%",
             "zIndex": 1
@@ -72,6 +74,7 @@ define(function() {
         }, controller.args[2], "lblModel"));
         var listModel = new kony.ui.ListBox(extendConfig({
             "centerX": "50%",
+            "focusSkin": "sknListBoxFocus",
             "height": "40dp",
             "id": "listModel",
             "isVisible": true,
@@ -81,6 +84,7 @@ define(function() {
                 ["lb3", "Placeholder Three"]
             ],
             "onSelection": controller.AS_modelOnSelect_i429f5d7e49646a681aac20785951f47,
+            "skin": "sknListBoxNormal",
             "top": "30%",
             "width": "300dp",
             "zIndex": 1
@@ -116,6 +120,7 @@ define(function() {
         }, controller.args[2], "lblFuelType"));
         var listFuelType = new kony.ui.ListBox(extendConfig({
             "centerX": "50.00%",
+            "focusSkin": "sknListBoxFocus",
             "height": "40dp",
             "id": "listFuelType",
             "isVisible": true,
@@ -125,6 +130,7 @@ define(function() {
                 ["lb3", "Placeholder Three"]
             ],
             "onSelection": controller.AS_fuelOnSelect_eb9e5a23d9064e73aa7c28aafa1ec922,
+            "skin": "sknListBoxNormal",
             "top": "45%",
             "width": "300dp",
             "zIndex": 1
@@ -234,11 +240,13 @@ define(function() {
             "paddingInPixel": false
         }, controller.args[1], "calendarYearTo"), extendConfig({}, controller.args[2], "calendarYearTo"));
         var btnFindCar = new kony.ui.Button(extendConfig({
+            "focusSkin": "defBtnFocus",
             "height": "50dp",
             "id": "btnFindCar",
             "isVisible": true,
             "left": "52dp",
             "onClick": controller.AS_btnFindCarOnClick_def0059f8f5444319015adc3d963e770,
+            "skin": "sknEditButton",
             "text": "Find your new car!",
             "top": "85%",
             "width": "300dp",

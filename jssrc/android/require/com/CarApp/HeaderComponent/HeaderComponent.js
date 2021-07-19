@@ -10,6 +10,7 @@ define(function() {
             "layoutType": kony.flex.FREE_FORM,
             "left": "0dp",
             "isModalContainer": false,
+            "skin": "slFbox",
             "top": "0dp",
             "width": "100%"
         }, controller.args[0], "HeaderComponent"), extendConfig({}, controller.args[1], "HeaderComponent"), extendConfig({}, controller.args[2], "HeaderComponent"));
@@ -23,6 +24,7 @@ define(function() {
             "layoutType": kony.flex.FREE_FORM,
             "left": 0,
             "isModalContainer": false,
+            "skin": "SknHeaderFlexContainer",
             "top": 0,
             "width": "100%",
             "zIndex": 1
@@ -33,6 +35,7 @@ define(function() {
             "id": "MainTxt",
             "isVisible": true,
             "left": 0,
+            "skin": "SknMainTxt",
             "text": "Temenos car - best car deals",
             "textStyle": {
                 "letterSpacing": 0,
@@ -52,6 +55,7 @@ define(function() {
             "centerX": "43%",
             "id": "SubText",
             "isVisible": true,
+            "skin": "SknSubText",
             "text": "Find from more then 5 offers today!",
             "textStyle": {
                 "letterSpacing": 0,
@@ -72,6 +76,7 @@ define(function() {
             "id": "SignIn",
             "isVisible": true,
             "right": "5%",
+            "skin": "SknLoginArrow",
             "text": "",
             "textStyle": {
                 "letterSpacing": 0,

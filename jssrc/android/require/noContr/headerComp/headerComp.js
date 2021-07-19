@@ -10,6 +10,7 @@ define(function() {
             "layoutType": kony.flex.FREE_FORM,
             "left": "0dp",
             "isModalContainer": false,
+            "skin": "slFbox",
             "top": "0dp",
             "width": "100%"
         }, controller.args[0], "headerComp"), extendConfig({}, controller.args[1], "headerComp"), extendConfig({}, controller.args[2], "headerComp"));
@@ -23,6 +24,7 @@ define(function() {
             "isVisible": true,
             "layoutType": kony.flex.FREE_FORM,
             "isModalContainer": false,
+            "skin": "SknHeaderFlexContainer",
             "top": "0%",
             "width": "100%",
             "zIndex": 1
@@ -75,6 +77,7 @@ define(function() {
             "id": "imgLoginLogout",
             "isVisible": true,
             "left": "278dp",
+            "skin": "slImage",
             "src": "loginicon.png",
             "top": "0dp",
             "width": "70dp",

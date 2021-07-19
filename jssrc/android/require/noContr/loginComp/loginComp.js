@@ -10,6 +10,7 @@ define(function() {
             "layoutType": kony.flex.FREE_FORM,
             "left": "0dp",
             "isModalContainer": false,
+            "skin": "slFbox",
             "top": "0dp",
             "width": "100%"
         }, controller.args[0], "loginComp"), extendConfig({}, controller.args[1], "loginComp"), extendConfig({}, controller.args[2], "loginComp"));
@@ -24,6 +25,7 @@ define(function() {
             "isVisible": true,
             "layoutType": kony.flex.FREE_FORM,
             "isModalContainer": false,
+            "skin": "slFbox",
             "top": "197dp",
             "width": "100%",
             "zIndex": 1
@@ -52,6 +54,7 @@ define(function() {
         var txtUsername = new kony.ui.TextBox2(extendConfig({
             "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
             "centerX": "50%",
+            "focusSkin": "sknTxtBoxFocus",
             "height": "40dp",
             "id": "txtUsername",
             "isVisible": true,
@@ -59,6 +62,7 @@ define(function() {
             "left": "15%",
             "placeholder": "Username",
             "secureTextEntry": false,
+            "skin": "sknTxtBoxNormal",
             "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
             "top": "17%",
             "width": "270dp",
@@ -71,6 +75,7 @@ define(function() {
         }, controller.args[1], "txtUsername"), extendConfig({
             "autoFilter": false,
             "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DEFAULT,
+            "placeholderSkin": "sknTxtBoxPlaceholder",
             "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
         }, controller.args[2], "txtUsername"));
         var lblPassword = new kony.ui.Label(extendConfig({
@@ -96,12 +101,14 @@ define(function() {
         var txtPassword = new kony.ui.TextBox2(extendConfig({
             "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
             "centerX": "50%",
+            "focusSkin": "sknTxtBoxFocus",
             "height": "40dp",
             "id": "txtPassword",
             "isVisible": true,
             "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
             "placeholder": "Placeholder",
             "secureTextEntry": false,
+            "skin": "sknTxtBoxNormal",
             "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
             "top": "38%",
             "width": "270dp",
@@ -114,14 +121,17 @@ define(function() {
         }, controller.args[1], "txtPassword"), extendConfig({
             "autoFilter": false,
             "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DEFAULT,
+            "placeholderSkin": "sknTxtBoxPlaceholder",
             "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
         }, controller.args[2], "txtPassword"));
         var btnLogin = new kony.ui.Button(extendConfig({
             "centerX": "50%",
+            "focusSkin": "defBtnFocus",
             "height": "50dp",
             "id": "btnLogin",
             "isVisible": true,
             "left": "51dp",
+            "skin": "sknEditButton",
             "text": "Login",
             "top": "452dp",
             "width": "300dp",
