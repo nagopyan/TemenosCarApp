@@ -86,7 +86,8 @@ define({
   navigate: function(){
     var carMaker = this.view.SearchForm.listMake;
     kony.store.setItem("filterData",carMaker);
-    //    var nav = new kony.mvc.Navigation("frmSearchList");
-    //     nav.navigate();
+    debugger;
+    var nav = new kony.mvc.Navigation("frmSearchList");
+    nav.navigate();
   }
 });
