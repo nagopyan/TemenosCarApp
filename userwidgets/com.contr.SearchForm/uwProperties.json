@@ -154,6 +154,29 @@
                         "wType": "ListBox"
                     },
                     "srcWgtKUID": "eb9e5a23d9064e73aa7c28aafa1ec922"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "dc654dc8cdab4433afdada01cf3040ee",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 4,
+                    "propertyKey": "listCarMakeValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependentKeysKUIDs": null,
+                        "displayName": "listCarMakeValue",
+                        "isDependentProp": true,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "listMake",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "b0cf68ba6df444dc959f76d4137bba49"
                 }
             ]
         },

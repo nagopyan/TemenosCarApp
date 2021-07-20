@@ -312,10 +312,7 @@ define("frmViewCar", function() {
             "id": "frmViewCar",
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
-            "skin": "slForm",
-            "info": {
-                "kuid": "c191e82819214a9888a050b5fc636b4c"
-            }
+            "skin": "slForm"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

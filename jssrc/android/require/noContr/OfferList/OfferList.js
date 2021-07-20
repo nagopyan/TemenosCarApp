@@ -35,7 +35,6 @@ define(function() {
             "width": "100%"
         }, controller.args[0], "OfferFlxScrollContainer"), extendConfig({}, controller.args[1], "OfferFlxScrollContainer"), extendConfig({}, controller.args[2], "OfferFlxScrollContainer"));
         OfferFlxScrollContainer.setDefaultUnit(kony.flex.DP);
-        kony.mvc.registry.add('RowTamplateCustom', 'RowTamplateCustom', 'RowTamplateCustomController');
         var SegmentListOffers = new kony.ui.SegmentedUI2(extendConfig({
             "autogrowMode": kony.flex.AUTOGROW_NONE,
             "centerX": "50%",

@@ -52,6 +52,51 @@ define(function() {
         }, controller.args[1], "lblSearchForm"), extendConfig({
             "textCopyable": false
         }, controller.args[2], "lblSearchForm"));
+        var lblMake = new kony.ui.Label(extendConfig({
+            "id": "lblMake",
+            "isVisible": true,
+            "left": "15.00%",
+            "skin": "sknLblRowHeading",
+            "text": "Car Make",
+            "textStyle": {
+                "letterSpacing": 0,
+                "strikeThrough": false
+            },
+            "top": "11%",
+            "width": kony.flex.USE_PREFFERED_SIZE,
+            "zIndex": 1
+        }, controller.args[0], "lblMake"), extendConfig({
+            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+            "padding": [0, 0, 0, 0],
+            "paddingInPixel": false
+        }, controller.args[1], "lblMake"), extendConfig({
+            "textCopyable": false
+        }, controller.args[2], "lblMake"));
+        var listMake = new kony.ui.ListBox(extendConfig({
+            "centerX": "50.00%",
+            "focusSkin": "sknListBoxFocus",
+            "height": "40dp",
+            "id": "listMake",
+            "isVisible": true,
+            "masterData": [
+                ["lb1", "Placeholder One"],
+                ["lb2", "Placeholder Two"],
+                ["lb3", "Placeholder Three"]
+            ],
+            "skin": "sknListBoxNormal",
+            "top": "15%",
+            "width": "300dp",
+            "zIndex": 1
+        }, controller.args[0], "listMake"), extendConfig({
+            "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+            "padding": [3, 0, 0, 0],
+            "paddingInPixel": false
+        }, controller.args[1], "listMake"), extendConfig({
+            "applySkinsToPopup": true,
+            "dropDownImage": "listboxarw.png",
+            "placeholder": "Please Select",
+            "viewType": constants.LISTBOX_VIEW_TYPE_LISTVIEW
+        }, controller.args[2], "listMake"));
         var lblModel = new kony.ui.Label(extendConfig({
             "id": "lblModel",
             "isVisible": true,
@@ -257,7 +302,7 @@ define(function() {
             "padding": [0, 0, 0, 0],
             "paddingInPixel": false
         }, controller.args[1], "btnFindCar"), extendConfig({}, controller.args[2], "btnFindCar"));
-        flxCompSearchForm.add(lblSearchForm, lblModel, listModel, lblFuelType, listFuelType, lblYearFrom, calendarYearFrom, lblYearTo, calendarYearTo, btnFindCar);
+        flxCompSearchForm.add(lblSearchForm, lblMake, listMake, lblModel, listModel, lblFuelType, listFuelType, lblYearFrom, calendarYearFrom, lblYearTo, calendarYearTo, btnFindCar);
         SearchForm.add(flxCompSearchForm);
         return SearchForm;
     }

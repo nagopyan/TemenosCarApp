@@ -31,7 +31,6 @@ define("frmLandingSearchScreen", function() {
                 "left": "0dp",
                 "masterType": constants.MASTER_TYPE_USERWIDGET,
                 "isModalContainer": false,
-                "onTouchStart": controller.AS_UWI_f6a8c4044c37430d91bc59b2fbea453e,
                 "skin": "slFbox",
                 "top": "0dp",
                 "width": "100%",
@@ -60,7 +59,10 @@ define("frmLandingSearchScreen", function() {
             "id": "frmLandingSearchScreen",
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
-            "skin": "slForm"
+            "skin": "slForm",
+            "info": {
+                "kuid": "j50b525f57e5433f8b7de3bbc7e68f68"
+            }
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

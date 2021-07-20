@@ -92,10 +92,7 @@ define("frmViewOffers", function() {
             "id": "frmViewOffers",
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
-            "skin": "slForm",
-            "info": {
-                "kuid": "gd5f3537b04346ac85e46f6545d6b2c3"
-            }
+            "skin": "slForm"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

@@ -41,6 +41,8 @@
     },
     "children": [
         "lblSearchForm",
+        "lblMake",
+        "listMake",
         "lblModel",
         "listModel",
         "lblFuelType",

@@ -29,6 +29,12 @@ define("com/contr/SearchForm/SearchFormController", ["com/contr/SearchForm/userS
         defineGetter(this, "blur2", function() {
             return this.view.listFuelType.blur;
         });
+        defineSetter(this, "blur", function(val) {
+            this.view.listMake.blur = val;
+        });
+        defineGetter(this, "blur", function() {
+            return this.view.listMake.blur;
+        });
         if (this.initGettersSetters) {
             this.initGettersSetters.apply(this, arguments);
         }
