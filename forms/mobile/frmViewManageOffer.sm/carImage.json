@@ -8,7 +8,7 @@
         "value": "100%"
     },
     "_left_": {
-        "type": "number",
+        "type": "string",
         "value": "0"
     },
     "_margin_": [
@@ -27,38 +27,33 @@
     "_src_": "imagedrag.png",
     "_top_": {
         "type": "string",
-        "value": "5%"
+        "value": "0"
     },
     "_width_": {
         "type": "string",
-        "value": "25%"
+        "value": "100%"
     },
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "uwuc12125e96184004b340459fd257cf83",
+        "formID": "frmViewManageOffer",
         "platform": "iphone",
-        "templateType": "userwidgets",
+        "templateType": "forms",
         "topLevelBox": null
     },
-    "id": "CarImage",
+    "id": "carImage",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "d656be378fc245d0b6edcccda448c673",
+    "kuid": "c04e4a29cb3d42dd9d8a2a43119d8595",
     "name": "kony.ui.Image2",
-    "parent": "ContentFlexContainer",
-    "pf": "userwidgetmodel",
+    "parent": "imageContainer",
+    "pf": "frmViewManageOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,
     "wType": "Image",
-    "widgetalignment": 5,
-    "zindex": 1
+    "widgetalignment": 5
 }

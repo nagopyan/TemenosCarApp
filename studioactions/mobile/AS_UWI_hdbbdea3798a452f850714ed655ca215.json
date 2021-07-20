@@ -1,0 +1,38 @@
+{
+    "AS_UWI_hdbbdea3798a452f850714ed655ca215": {
+        "id": "AS_UWI_hdbbdea3798a452f850714ed655ca215",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLandingSearchScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "j50b525f57e5433f8b7de3bbc7e68f68"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___aa684e0ec839424e997a57f5a723a8af",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmSearchList",
+            "friendlyName": "frmSearchList",
+            "formKUID": "b05e4b914cab44b4b87272905a806747",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": "",
+            "navigationObj": "{\n    \"_meta_\": {\n        \"eventName\": \"\",\n        \"widgetId\": \"\"\n    }\n}",
+            "isCustomInput": false
+        }]
+    }
+}

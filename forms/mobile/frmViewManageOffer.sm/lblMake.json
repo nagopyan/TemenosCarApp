@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "15%"
+        "value": "5%"
     },
     "_margin_": [
         1,
@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s017a4c624b7464a90b37b4eb5be8e70",
-    "_text_": "Model",
+    "_text_": "Make",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -42,7 +42,7 @@
     },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblModel",
+    "id": "lblMake",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,11 +56,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "db8822de46b2409e9b42b863cbab1e66",
+    "kuid": "i4037c24875b4e2a80cd4a00e64a1827",
     "name": "kony.ui.Label",
-    "paddinginpixel": false,
     "parent": "makeAndModelContainer",
-    "pf": "frmViewCar",
+    "pf": "frmViewManageOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},

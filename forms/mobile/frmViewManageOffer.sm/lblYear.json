@@ -6,10 +6,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "15%"
-    },
     "_margin_": [
         1,
         1,
@@ -22,8 +18,12 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
     "_skin_": "s017a4c624b7464a90b37b4eb5be8e70",
-    "_text_": "Model",
+    "_text_": "Year",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -41,8 +41,8 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "lblModel",
+    "contentalignment": 5,
+    "id": "lblYear",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,14 +56,12 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "db8822de46b2409e9b42b863cbab1e66",
+    "kuid": "fc5a5eafc89b4aacb741a729438e8618",
     "name": "kony.ui.Label",
-    "paddinginpixel": false,
     "parent": "makeAndModelContainer",
-    "pf": "frmViewCar",
+    "pf": "frmViewManageOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "textstyle": {},
     "tooltip": "",
     "wType": "Label"
 }

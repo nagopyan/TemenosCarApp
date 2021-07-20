@@ -62,6 +62,7 @@
     "pf": "frmViewCar",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label"
 }

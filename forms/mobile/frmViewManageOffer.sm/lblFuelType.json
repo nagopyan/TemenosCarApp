@@ -6,6 +6,10 @@
         "type": "ref",
         "value": "preferred"
     },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
     "_margin_": [
         1,
         1,
@@ -18,15 +22,11 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "10%"
-    },
-    "_skin_": "sfa4c395acdd46a4b3ccb97353cd7398",
-    "_text_": "Year",
+    "_skin_": "s017a4c624b7464a90b37b4eb5be8e70",
+    "_text_": "Fuel type",
     "_top_": {
         "type": "string",
-        "value": "31dp"
+        "value": "41.49%"
     },
     "_width_": {
         "type": "ref",
@@ -40,9 +40,13 @@
         }
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "LblYear",
+    "id": "lblFuelType",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,14 +60,12 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "cade997d67ba43788c529fc916e1c3a7",
+    "kuid": "d8a52e6a31984a56b977464a37d1fd6b",
     "name": "kony.ui.Label",
-    "parent": "ContentFlexContainer",
-    "pf": "userwidgetmodel",
+    "parent": "fuelContainer",
+    "pf": "frmViewManageOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "textstyle": {},
     "tooltip": "",
-    "wType": "Label",
-    "zindex": 1
+    "wType": "Label"
 }

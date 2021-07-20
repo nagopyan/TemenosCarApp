@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "15%"
+        "value": "30%"
     },
     "_margin_": [
         1,
@@ -22,8 +22,12 @@
         0,
         0
     ],
-    "_skin_": "s017a4c624b7464a90b37b4eb5be8e70",
-    "_text_": "Model",
+    "_skin_": "s446b16f00344c108b030a60060a15b3",
+    "_text_": "Fuel: Fuel Type",
+    "_top_": {
+        "type": "string",
+        "value": "65%"
+    },
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -36,13 +40,10 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
+    "containerId": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "lblModel",
+    "id": "LblFuelType",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,14 +57,14 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "db8822de46b2409e9b42b863cbab1e66",
+    "kuid": "a6190f68a4fd4ed586d107e5903d328e",
     "name": "kony.ui.Label",
-    "paddinginpixel": false,
-    "parent": "makeAndModelContainer",
-    "pf": "frmViewCar",
+    "parent": "RowFlexContainer",
+    "pf": "RowTamplateCustom",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "textstyle": {},
     "tooltip": "",
-    "wType": "Label"
+    "wType": "Label",
+    "zindex": 1
 }

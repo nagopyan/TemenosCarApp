@@ -41,7 +41,7 @@
         "headerComponent",
         "imageContainer",
         "carOfferDetails",
-        "btnContainer"
+        "BackArrow"
     ],
     "clipbounds": true,
     "containerweight": 100,

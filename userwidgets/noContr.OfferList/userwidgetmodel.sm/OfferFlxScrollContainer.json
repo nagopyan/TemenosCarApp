@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "10%"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "0"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -23,39 +23,47 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sf76275b9da64e2baa19b35ac0d0fb6c",
+    "_skin_": "saac9797c6844de1b5124cd6bac5f514",
     "_top_": {
         "type": "string",
-        "value": "1%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "btnEdit",
-        "btnRemove"
+        "SegmentListOffers"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
-    "id": "btnContainer",
+    "horizontalscrollindicator": true,
+    "id": "OfferFlxScrollContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g6e661de3edd48a2a684a411cf279837",
+    "kuid": "bd0c1e0062aa4503850cdfa87ad48a43",
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "viewCarScrollContainer",
-    "pf": "frmViewCar",
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "OfferList",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
     "widgetalignment": 1
 }

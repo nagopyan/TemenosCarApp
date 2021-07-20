@@ -6,6 +6,10 @@
         "type": "string",
         "value": "50dp"
     },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
     "_margin_": [
         6,
         6,
@@ -18,12 +22,8 @@
         0,
         0
     ],
-    "_right_": {
-        "type": "string",
-        "value": "5%"
-    },
-    "_skin_": "se64a131bd1b43b0aec3a57611cc8543",
-    "_text_": "Remove",
+    "_skin_": "sbb449a766d940e3b205da80318a6e3f",
+    "_text_": "Edit",
     "_top_": {
         "type": "string",
         "value": "0"
@@ -41,14 +41,14 @@
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa667073e3c44b95a495dbe095bf99a9",
-    "id": "btnRemove",
+    "id": "btnEdit",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c339371cb74f497a9a6889973c537a7c",
+    "kuid": "a1e0a0508877446a88f197bc07c68247",
     "name": "kony.ui.Button",
     "parent": "btnContainer",
-    "pf": "frmViewCar",
+    "pf": "frmViewManageOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "wType": "Button"

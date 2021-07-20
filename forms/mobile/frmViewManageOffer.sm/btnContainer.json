@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "80%"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
-        "value": "45dp"
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -26,7 +26,7 @@
     "_skin_": "sf76275b9da64e2baa19b35ac0d0fb6c",
     "_top_": {
         "type": "string",
-        "value": "20%"
+        "value": "85%"
     },
     "_width_": {
         "type": "string",
@@ -35,46 +35,27 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "lblSearchForm",
-        "lblMake",
-        "listMake",
-        "lblModel",
-        "listModel",
-        "lblFuelType",
-        "listFuelType",
-        "lblYearFrom",
-        "calendarYearFrom",
-        "lblYearTo",
-        "calendarYearTo",
-        "btnFindCar"
+        "btnEdit",
+        "btnRemove"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxCompSearchForm",
+    "id": "btnContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ba993ed57e9845469bdcfff940208067",
+    "kuid": "ha8d1a8d683b4b31af2250cf10adeee1",
     "layouttype": 2,
-    "maxwidth": {
-        "type": "string",
-        "value": "100%"
-    },
     "name": "kony.ui.FlexContainer",
-    "parent": "SearchForm",
-    "pf": "userwidgetmodel",
+    "parent": "frmViewManageOffer",
+    "pf": "frmViewManageOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

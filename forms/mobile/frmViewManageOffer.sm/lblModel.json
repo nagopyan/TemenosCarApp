@@ -8,7 +8,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "30%"
+        "value": "15%"
     },
     "_margin_": [
         1,
@@ -22,12 +22,8 @@
         0,
         0
     ],
-    "_skin_": "sf60741d69d9428f9b22fcc8b472d8f4",
-    "_text_": "Offer Title",
-    "_top_": {
-        "type": "string",
-        "value": "10%"
-    },
+    "_skin_": "s017a4c624b7464a90b37b4eb5be8e70",
+    "_text_": "Model",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -40,9 +36,13 @@
         }
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "LblOfferTitle",
+    "id": "lblModel",
     "info": null,
     "ipad": {
         "psp": {
@@ -56,14 +56,13 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "cf229f9ab425421cb4a158c646e88b61",
+    "kuid": "h4c9c7f410c74084822a7feebd052052",
     "name": "kony.ui.Label",
-    "parent": "ContentFlexContainer",
-    "pf": "userwidgetmodel",
+    "paddinginpixel": false,
+    "parent": "makeAndModelContainer",
+    "pf": "frmViewManageOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "textstyle": {},
     "tooltip": "",
-    "wType": "Label",
-    "zindex": 1
+    "wType": "Label"
 }

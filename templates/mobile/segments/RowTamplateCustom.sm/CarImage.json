@@ -8,7 +8,7 @@
         "value": "100%"
     },
     "_left_": {
-        "type": "string",
+        "type": "number",
         "value": "0"
     },
     "_margin_": [
@@ -27,33 +27,38 @@
     "_src_": "imagedrag.png",
     "_top_": {
         "type": "string",
-        "value": "0"
+        "value": "5%"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "25%"
     },
     "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
-        "formID": "frmViewCar",
-        "platform": "android",
-        "templateType": "forms",
+        "platform": "iphone",
+        "templateType": "segments",
         "topLevelBox": null
     },
-    "id": "carImage",
+    "id": "CarImage",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a6c0c173bfb747c1bebea0685b6b93c9",
+    "kuid": "a679a81d62f645f590ecad1f596be8c0",
     "name": "kony.ui.Image2",
-    "parent": "imageContainer",
-    "pf": "frmViewCar",
+    "parent": "RowFlexContainer",
+    "pf": "RowTamplateCustom",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,
     "wType": "Image",
-    "widgetalignment": 5
+    "widgetalignment": 5,
+    "zindex": 1
 }
