@@ -11,12 +11,12 @@ define({
 
   postShow: function() {
     this.view.imgLoginLogout.onTouchStart = this.navLogin;
+    this.getCurrentForm();
   },
 
   navLogin : function() {
     var ntf = new kony.mvc.Navigation("frmLogin");
     ntf.navigate();
-    
   },
   
   updateIcon: function() {
@@ -25,6 +25,12 @@ define({
     } else {
       this.view.imgLoginLogout.src = loggedOutIcon;
     }
+    
   },
+  
+    getCurrentForm: function () {
+	var currentForm = kony.application.getCurrentForm();
+	alert(currentForm.id);
+}
 
 });
