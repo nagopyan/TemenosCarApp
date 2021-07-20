@@ -80,6 +80,11 @@ define({
 
   preShow: function(){
   	kony.store.setItem("OfferDb", this.OffersDb);
-  }
+    this.view.SearchForm.onTouchStart = this.navigate;
+  },
 
+  navigate: function(){
+   var nav = new kony.mvc.Navigation("frmSearchList");
+    nav.navigate();
+}
  });

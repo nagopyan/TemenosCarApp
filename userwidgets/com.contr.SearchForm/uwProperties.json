@@ -107,7 +107,24 @@
             "widgets": []
         },
         "properties": {
-            "custom": [],
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": true,
+                    "group": "General",
+                    "kuid": "f29787a08c09434690aa707be4a4b73d",
+                    "originalPropertyKey": "btnFindCar",
+                    "propertyIndex": 5,
+                    "propertyKey": "btnFindCar",
+                    "pw": {
+                        "displayName": "onClickBtn",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "h0a3d7cc3990435e9cb5f6ebd494e6b8",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
             "passthrough": [
                 {
                     "access": "Enable",
@@ -181,7 +198,13 @@
             ]
         },
         "widgets": {
-            "expose": [],
+            "expose": [
+                {
+                    "kuid": "e2f92c65ebe4435c90e4d74f67806159",
+                    "propertyKey": "btnFindCar",
+                    "srcWgtKUID": "def0059f8f5444319015adc3d963e770"
+                }
+            ],
             "passthrough": []
         }
     },
