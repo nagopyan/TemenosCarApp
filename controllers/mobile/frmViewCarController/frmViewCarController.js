@@ -6,6 +6,8 @@ onViewCreated: function() {
   
   preShow:function(){
     var offer = kony.store.getItem("OfferDetails");
+    debugger;
+    
     this.view.carImage.src = offer.imgUrl;
     this.view.lblOfferTitle.text = offer.title;
     this.view.lblMake.text = offer.make;
