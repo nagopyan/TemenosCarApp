@@ -283,56 +283,27 @@ define("frmViewCar", function() {
                 "placeholderSkin": "defTextAreaPlaceholder"
             });
             carOfferDetails.add(OfferContainer, makeAndModelContainer, fuelContainer, textAreaDescription);
-            var btnContainer = new kony.ui.FlexContainer({
-                "autogrowMode": kony.flex.AUTOGROW_NONE,
-                "clipBounds": true,
-                "height": "10%",
-                "id": "btnContainer",
-                "isVisible": true,
-                "layoutType": kony.flex.FREE_FORM,
-                "left": "0",
-                "isModalContainer": false,
-                "skin": "slFbox",
-                "top": "1%",
-                "width": "100%"
-            }, {}, {});
-            btnContainer.setDefaultUnit(kony.flex.DP);
-            var btnEdit = new kony.ui.Button({
-                "centerY": "50%",
-                "focusSkin": "defBtnFocus",
-                "height": "50dp",
-                "id": "btnEdit",
+            var BackArrow = new kony.ui.Label({
+                "id": "BackArrow",
                 "isVisible": true,
                 "left": "5%",
-                "skin": "sknEditButton",
-                "text": "Edit",
-                "top": "0",
-                "width": "30%"
+                "skin": "SknBackArrow",
+                "text": "",
+                "textStyle": {
+                    "letterSpacing": 0,
+                    "strikeThrough": false
+                },
+                "top": "5%",
+                "width": "15%",
+                "zIndex": 1
             }, {
                 "contentAlignment": constants.CONTENT_ALIGN_CENTER,
-                "displayText": true,
                 "padding": [0, 0, 0, 0],
                 "paddingInPixel": false
-            }, {});
-            var btnRemove = new kony.ui.Button({
-                "centerY": "50%",
-                "focusSkin": "defBtnFocus",
-                "height": "50dp",
-                "id": "btnRemove",
-                "isVisible": true,
-                "right": "5%",
-                "skin": "sknRemoveButton",
-                "text": "Remove",
-                "top": "0",
-                "width": "30%"
             }, {
-                "contentAlignment": constants.CONTENT_ALIGN_CENTER,
-                "displayText": true,
-                "padding": [0, 0, 0, 0],
-                "paddingInPixel": false
-            }, {});
-            btnContainer.add(btnEdit, btnRemove);
-            viewCarScrollContainer.add(headerComponent, imageContainer, carOfferDetails, btnContainer);
+                "textCopyable": false
+            });
+            viewCarScrollContainer.add(headerComponent, imageContainer, carOfferDetails, BackArrow);
             this.add(viewCarScrollContainer);
         };
         return [{
@@ -341,7 +312,10 @@ define("frmViewCar", function() {
             "id": "frmViewCar",
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
-            "skin": "slForm"
+            "skin": "slForm",
+            "info": {
+                "kuid": "c191e82819214a9888a050b5fc636b4c"
+            }
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

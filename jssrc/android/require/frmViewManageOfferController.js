@@ -11,11 +11,16 @@ define("userfrmViewManageOfferController", {
         this.view.lblYear.text = offer.year;
         this.view.lblFuelType = offer.fuel;
         this.view.textAreaDescription.text = offer.description;
-        this.view.BackArrow.onTouchStart = this.goBack;
+        this.view.btnEdit.onClick = this.navigate;
     },
-    goBack: function() {
-        var nav = new kony.mvc.Navigation("frmSearchList");
-        nav.navigate();
+    navigate: function() {
+        var nav = new kony.mvc.Navigation("frmAddEditOffer");
+        var carObj = {
+            title: this.view.lblOfferTitle.text,
+            imgUrl: this.view.carImage.src,
+            make: this.view.lblMake.text
+        };
+        nav.navigate(carObj);
     }
 });
 

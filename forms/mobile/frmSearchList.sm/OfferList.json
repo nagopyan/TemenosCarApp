@@ -49,6 +49,14 @@
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
+        "OfferFlxScrollContainer": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "e580d115526649288f7d7d2a56903e8b",
+                "srcKUID": "bd0c1e0062aa4503850cdfa87ad48a43",
+                "wType": "FlexScrollContainer"
+            }
+        },
         "OfferList": {
             "__events__": {},
             "__info__": {

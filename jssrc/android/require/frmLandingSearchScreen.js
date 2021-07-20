@@ -60,10 +60,7 @@ define("frmLandingSearchScreen", function() {
             "id": "frmLandingSearchScreen",
             "layoutType": kony.flex.FREE_FORM,
             "needAppMenu": false,
-            "skin": "slForm",
-            "info": {
-                "kuid": "j50b525f57e5433f8b7de3bbc7e68f68"
-            }
+            "skin": "slForm"
         }, {
             "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
             "layoutType": kony.flex.FREE_FORM,

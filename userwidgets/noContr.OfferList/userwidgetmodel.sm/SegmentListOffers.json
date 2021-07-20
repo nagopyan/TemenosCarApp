@@ -313,7 +313,7 @@
     "paginationconfig": {
         "position": "bottom"
     },
-    "parent": "OfferList",
+    "parent": "OfferFlxScrollContainer",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

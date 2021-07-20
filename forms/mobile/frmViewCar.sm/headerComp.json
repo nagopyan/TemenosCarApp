@@ -2,6 +2,7 @@
     "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
     "__parentReadjusting__": false,
+    "_android_": {},
     "_children_": [],
     "_height_": {
         "type": "string",

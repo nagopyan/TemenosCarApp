@@ -15,6 +15,27 @@ define(function() {
             "width": "100%"
         }, controller.args[0], "OfferList"), extendConfig({}, controller.args[1], "OfferList"), extendConfig({}, controller.args[2], "OfferList"));
         OfferList.setDefaultUnit(kony.flex.DP);
+        var OfferFlxScrollContainer = new kony.ui.FlexScrollContainer(extendConfig({
+            "allowHorizontalBounce": false,
+            "allowVerticalBounce": true,
+            "bounces": true,
+            "clipBounds": true,
+            "enableScrolling": true,
+            "height": "100%",
+            "horizontalScrollIndicator": true,
+            "id": "OfferFlxScrollContainer",
+            "isVisible": true,
+            "layoutType": kony.flex.FREE_FORM,
+            "left": "0dp",
+            "pagingEnabled": false,
+            "scrollDirection": kony.flex.SCROLL_VERTICAL,
+            "skin": "slFSbox",
+            "top": "0dp",
+            "verticalScrollIndicator": true,
+            "width": "100%"
+        }, controller.args[0], "OfferFlxScrollContainer"), extendConfig({}, controller.args[1], "OfferFlxScrollContainer"), extendConfig({}, controller.args[2], "OfferFlxScrollContainer"));
+        OfferFlxScrollContainer.setDefaultUnit(kony.flex.DP);
+        kony.mvc.registry.add('RowTamplateCustom', 'RowTamplateCustom', 'RowTamplateCustomController');
         var SegmentListOffers = new kony.ui.SegmentedUI2(extendConfig({
             "autogrowMode": kony.flex.AUTOGROW_NONE,
             "centerX": "50%",
@@ -114,7 +135,8 @@ define(function() {
             "padding": [0, 0, 0, 0],
             "paddingInPixel": false
         }, controller.args[1], "SegmentListOffers"), extendConfig({}, controller.args[2], "SegmentListOffers"));
-        OfferList.add(SegmentListOffers);
+        OfferFlxScrollContainer.add(SegmentListOffers);
+        OfferList.add(OfferFlxScrollContainer);
         return OfferList;
     }
 })

@@ -19,6 +19,7 @@ function skinsInit() {
     CopysknListBoxNormal0c1ac012733b540 = "CopysknListBoxNormal0c1ac012733b540";
     CopyslFbox0e8caf6165cdd49 = "CopyslFbox0e8caf6165cdd49";
     CopyslFbox0g7e98b597a7b45 = "CopyslFbox0g7e98b597a7b45";
+    CopyslFontAwesomeIcon0f558f4b8804543 = "CopyslFontAwesomeIcon0f558f4b8804543";
     CopyslForm07c0ae13367f944 = "CopyslForm07c0ae13367f944";
     CopyslForm4 = "CopyslForm4";
     CopyslLabel0a625a35ab5ef44 = "CopyslLabel0a625a35ab5ef44";

@@ -19,7 +19,7 @@ define({
 
   onRowClicked:function(seguiWidget, sectionNumber, rowNumber, selectedState){
     kony.store.setItem("OfferDetails", this.offersDb[rowNumber]);
-    var ntf = new kony.mvc.Navigation("frmViewManageOffer");
+    var ntf = new kony.mvc.Navigation("frmViewCar");
     ntf.navigate();
   },
 

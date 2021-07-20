@@ -5,7 +5,11 @@ define("com/contr/SearchForm/userSearchFormController", function() {
         initGettersSetters: function() {}
     };
 });
-
+define("com/contr/SearchForm/SearchFormControllerActions", {
+    /*
+      This is an auto generated file and any modifications to it may result in corruption of the action sequence.
+    */
+});
 define("com/contr/SearchForm/SearchFormController", ["com/contr/SearchForm/userSearchFormController", "com/contr/SearchForm/SearchFormControllerActions"], function() {
     var controller = require("com/contr/SearchForm/userSearchFormController");
     var actions = require("com/contr/SearchForm/SearchFormControllerActions");
