@@ -1,5 +1,5 @@
 define({ 
-  
+
   OffersDb: [
     {
       title: "Selling Audi S3",
@@ -71,20 +71,22 @@ define({
       description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
       user: "",
     }
-    
+
   ],
-  
+
   onViewCreated: function() {
     this.view.preShow = this.preShow;
   },
 
   preShow: function(){
-  	kony.store.setItem("OfferDb", this.OffersDb);
-    this.view.SearchForm.onTouchStart = this.navigate;
+    kony.store.setItem("OfferDb", this.OffersDb);
+    this.view.SearchForm.onClickSearchButton = this.navigate;
   },
 
   navigate: function(){
-   var nav = new kony.mvc.Navigation("frmSearchList");
-    nav.navigate();
-}
- });
+    var carMaker = this.view.SearchForm.listModel;
+    kony.store.setItem("filterData",carMaker);
+    //    var nav = new kony.mvc.Navigation("frmSearchList");
+    //     nav.navigate();
+  }
+});
