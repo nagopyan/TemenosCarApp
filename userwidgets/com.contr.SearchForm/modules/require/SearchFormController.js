@@ -19,7 +19,7 @@ define(function() {
       ]
     },
     {
-      carMaker: "BMw",
+      carMaker: "BMW",
       carModels: [
         {
           carModel: "X5"
