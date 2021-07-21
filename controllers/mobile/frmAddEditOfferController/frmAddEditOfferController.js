@@ -20,14 +20,22 @@ define({
   pullInfo: function() {
     var carInfo = 
         {
-          carTitle: this.view.TextFieldOfferTitle.text,
+          title: this.view.TextFieldOfferTitle.text,
           carImg: this.view.TextFieldImageUrl.text,
           carMake: this.view.DropDownCarMake.selectedKeyValue[1],
           carModel: this.view.DropDownCarModel.selectedKeyValue[1],
           carFuel: this.view.DropDownFuelType.selectedKeyValue[1],
           
         };
-    alert("Make: " + carInfo.carMake);
+  var db = kony.store.getItem("OfferDb");
+    db.push({
+          "LblOfferTitle": {"text": carInfo.title},
+          "CarImage": {"src": carInfo.imgUrl},
+          "LblMakeModel": {"text": carInfo.make + ", " + carInfo.model},
+          "LblFuelType":{"txt": carInfo.fuel},
+          "LblYear": {"text": carInfo.year}
+        });
+    alert(db);
   },
 
 //   onNavigate: function(obj) {
