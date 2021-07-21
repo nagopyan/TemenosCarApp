@@ -34,6 +34,23 @@ define(function() {
           carModel: "E93"
         }
       ]
+    },
+        {
+      carMaker: "Toyota",
+      carModels: [
+        {
+          carModel: "Supra"
+        },
+        {
+          carModel: "Yaris"
+        },
+        {
+          carModel: "Corolla"
+        },
+        {
+          carModel: "Prius"
+        }
+      ]
     }
   ];
 
