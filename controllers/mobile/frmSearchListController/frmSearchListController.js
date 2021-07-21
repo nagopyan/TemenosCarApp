@@ -20,6 +20,8 @@ define({
     }else{
       this.view.LblSearchResult.text = `Found ${this.formatedData.length --} results!`;
     }
+    //Updates the Search info text with selected criteria.
+    this.view.LblSearchContent.text = "Search for " + makeSelect + " " + modelSelect + " " + fuelSelect;
   },
 
   onRowClicked:function(seguiWidget, sectionNumber, rowNumber, selectedState){
@@ -36,7 +38,7 @@ define({
   formatedSegmentData: function(responseData,fomratedData) {
     var scope = this;
     responseData.forEach(function(offer) {
-      if(offer.make.includes('BMW')){
+      if(offer.make.includes(makeSelect)){
         fomratedData.push({
           "LblOfferTitle": {"text": offer.title},
           "CarImage": {"src": offer.imgUrl},
