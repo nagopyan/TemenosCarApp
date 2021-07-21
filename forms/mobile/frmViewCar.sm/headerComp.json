@@ -28,6 +28,10 @@
     ],
     "_percent_": true,
     "_skin_": "sf76275b9da64e2baa19b35ac0d0fb6c",
+    "_spa_": {},
+    "_spaan_": {},
+    "_spabb_": {},
+    "_spaip_": {},
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -60,6 +64,9 @@
                 "kuid": "cafa7590074145dab543b845b48d2636",
                 "srcKUID": "j118ec00f33a4481aaab327a4f044c40",
                 "wType": "FlexContainer"
+            },
+            "zIndex": {
+                "Default": 2
             }
         },
         "imgLoginLogout": {
@@ -105,5 +112,6 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "sourceUserWidget": "j118ec00f33a4481aaab327a4f044c40",
-    "wType": "UserWidgetInstance"
+    "wType": "UserWidgetInstance",
+    "zindex": 2
 }

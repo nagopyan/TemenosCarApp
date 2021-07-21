@@ -64,6 +64,9 @@
                 "kuid": "ec5ab2e554254fbf9776c135a811861a",
                 "srcKUID": "j118ec00f33a4481aaab327a4f044c40",
                 "wType": "FlexContainer"
+            },
+            "zIndex": {
+                "Default": 2
             }
         },
         "imgLoginLogout": {
@@ -109,5 +112,6 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "sourceUserWidget": "j118ec00f33a4481aaab327a4f044c40",
-    "wType": "UserWidgetInstance"
+    "wType": "UserWidgetInstance",
+    "zindex": 2
 }

@@ -11,14 +11,14 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "d9eb00db52c44cfebe88de02ce8c3cb5",
+                    "kuid": "ifbd842bfc934f529f98fda03726129e",
                     "originalPropertyKey": "onClick",
                     "propertyIndex": 4,
-                    "propertyKey": "onClickSearchButton",
+                    "propertyKey": "findCarClick",
                     "pw": {
                         "access": "readwrite",
                         "category": "action",
-                        "displayName": "onClickSearchButton",
+                        "displayName": "findCarClick",
                         "srcWidget": "btnFindCar",
                         "type": "action",
                         "uiRepresentation": "Label-Label-Button-Button",
@@ -40,8 +40,10 @@
                     "access": "Write",
                     "defaultValue": "\"\"",
                     "group": "General",
+
                     "kuid": "c70d4120a8c74694bf2e5736a8973eac",
                     "originalPropertyKey": "carMake",
+
                     "propertyIndex": 1,
                     "propertyKey": "carMake",
                     "pw": {
@@ -56,8 +58,10 @@
                     "access": "Write",
                     "defaultValue": "\"\"",
                     "group": "General",
+
                     "kuid": "bf2c0ce1ca9449de9279d8d9c49af13a",
                     "originalPropertyKey": "carModel",
+
                     "propertyIndex": 2,
                     "propertyKey": "carModel",
                     "pw": {
@@ -72,8 +76,10 @@
                     "access": "Write",
                     "defaultValue": "\"\"",
                     "group": "General",
+
                     "kuid": "c68c3f15942240d6b2629b7c6e092b9b",
                     "originalPropertyKey": "fuelType",
+
                     "propertyIndex": 3,
                     "propertyKey": "fuelType",
                     "pw": {
@@ -88,7 +94,9 @@
                     "access": "Write",
                     "defaultValue": "",
                     "group": "General",
+
                     "kuid": "be5e492b45a347629e781ba595c987bf",
+
                     "originalPropertyKey": "calendarYearFrom",
                     "propertyIndex": 4,
                     "propertyKey": "calendarYearFrom",
@@ -104,7 +112,9 @@
                     "access": "Write",
                     "defaultValue": "",
                     "group": "General",
+
                     "kuid": "d8e377ccc3a84ab5a390d7da400aec6b",
+
                     "originalPropertyKey": "calendarYearTo",
                     "propertyIndex": 5,
                     "propertyKey": "calendarYearTo",
