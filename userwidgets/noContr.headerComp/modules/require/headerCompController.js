@@ -11,7 +11,7 @@ define({
 
   postShow: function() {
     this.view.imgLoginLogout.onTouchStart = this.navLogin;
-    this.getCurrentForm();
+
   },
 
   navLogin : function() {
@@ -19,6 +19,9 @@ define({
       isLoggedIn = false;
       userFound = false;
       passFound = false;
+      makeSelect = "";
+      modelSelect = "";
+      fuelSelect = "";
       alert("Logout successfull!");
     }
 
@@ -33,11 +36,6 @@ define({
       this.view.imgLoginLogout.src = loggedOutIcon;
     }
 
-  },
-
-  getCurrentForm: function () {
-    var currentForm = kony.application.getCurrentForm();
-    //alert(currentForm.id);
   }
 
 });
