@@ -44,6 +44,14 @@
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
+        "btnBack": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "j1228b37438f48d981cefa7e2cca9acf",
+                "srcKUID": "i2fa81dbf4f849898eb0cb192b59db17",
+                "wType": "Button"
+            }
+        },
         "btnLogin": {
             "__events__": {},
             "__info__": {

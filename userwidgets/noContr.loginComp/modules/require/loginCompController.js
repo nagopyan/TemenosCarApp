@@ -34,6 +34,7 @@ define({
 
   postShow: function() {
     this.view.btnLogin.onClick = this.loginRequest;
+    this.view.btnBack.onClick = this.navBack;
   },
 
 
@@ -55,7 +56,7 @@ define({
                             );
     this.canLogin();
   },
-  
+
   canLogin: function() {
     if(userFound === true) {
       if(passFound === true) {
@@ -68,10 +69,15 @@ define({
       alert("Incorrect Username/Password!");
     }
   },
-  
-    navLogin : function() {
+
+  navLogin : function() {
     var ntf = new kony.mvc.Navigation("frmViewOffers");
     ntf.navigate();
   },
-  
+
+  navBack : function() {
+    var ntf = new kony.mvc.Navigation("frmLandingSearchScreen");
+    ntf.navigate();
+  },
+
 });
