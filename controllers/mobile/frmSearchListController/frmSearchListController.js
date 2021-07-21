@@ -38,7 +38,7 @@ define({
   formatedSegmentData: function(responseData,fomratedData) {
     var scope = this;
     responseData.forEach(function(offer) {
-      if(offer.make.includes(makeSelect)){
+      if(offer.make.includes(makeSelect) && offer.model.includes(modelSelect) && offer.fuel.includes(fuelSelect)){
         fomratedData.push({
           "LblOfferTitle": {"text": offer.title},
           "CarImage": {"src": offer.imgUrl},
