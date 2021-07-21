@@ -25,10 +25,12 @@ define({
   },
 
   onRowClicked:function(seguiWidget, sectionNumber, rowNumber, selectedState){
+ 
     kony.store.setItem("OfferDetails", this.offersDb[rowNumber]);
     var ntf = new kony.mvc.Navigation("frmViewCar");
     ntf.navigate();
   },
+
 
   navigate:function(){
     var nav = new kony.mvc.Navigation("frmLandingSearchScreen");
