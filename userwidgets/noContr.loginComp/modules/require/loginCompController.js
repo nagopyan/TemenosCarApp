@@ -76,9 +76,7 @@ define({
   },
 
   navBack : function() {
-    makeSelect = "";
-    modelSelect = "";
-    fuelSelect = "";
+
     var ntf = new kony.mvc.Navigation("frmLandingSearchScreen");
     ntf.navigate();
   },

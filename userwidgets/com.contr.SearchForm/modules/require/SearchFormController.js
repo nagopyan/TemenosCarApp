@@ -79,19 +79,15 @@ define(function() {
       var modelsInKeyValue = this.getCarModelsInKeyValueFormat(carModels);
       this.view.listModel.masterData = modelsInKeyValue;
 
-      //alert(listKey + " carMake" + this._carMake);
       makeSelect = this.view.listMake.selectedKey;
-      alert(makeSelect);
     },
 
     getCarModelListValue: function() {
       modelSelect = this.view.listModel.selectedKey;
-      alert(modelSelect);
     },
 
     getCarFuelListValue: function() {
       fuelSelect = this.view.listFuelType.selectedKey;
-      alert(fuelSelect);
     },
 
     loadDataInSearchList(cars,carMaker){   

@@ -19,9 +19,7 @@ define({
       isLoggedIn = false;
       userFound = false;
       passFound = false;
-      makeSelect = "";
-      modelSelect = "";
-      fuelSelect = "";
+
       alert("Logout successfull!");
     }
 

@@ -30,6 +30,7 @@ define({
     var ntf = new kony.mvc.Navigation("frmViewCar");
     ntf.navigate();
   },
+  
 
 
   navigate:function(){

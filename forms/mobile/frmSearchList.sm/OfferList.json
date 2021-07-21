@@ -72,6 +72,15 @@
                 "kuid": "a1c304eae6da41058ffcc0d861348565",
                 "srcKUID": "e8387751fd454a138cf4da6f44d8fe18",
                 "wType": "Segment"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "70.00%"
+                }
             }
         }
     },
