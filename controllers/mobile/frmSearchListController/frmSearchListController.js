@@ -9,7 +9,6 @@ define({
   },
 
   init: function() {
-
     this.formatedSegmentData.call(this,this.offersDb,this.formatedData);
     this.view.OfferList.SegmentListOffers.setData(this.formatedData);
     this.view.btnChange.onClick = this.navigate;
@@ -23,9 +22,10 @@ define({
     this.view.LblSearchContent.text = "Search for " + makeSelect + " " + modelSelect + " " + fuelSelect;
   },
 
-  onRowClicked:function(seguiWidget, sectionNumber, rowNumber, selectedState){
-
-    kony.store.setItem("OfferDetails", this.offersDb[rowNumber]);
+  onRowClicked:function(){
+    var indexOfSelectedRow = this.view.OfferList.SegmentListOffers.selectedRowIndex[1];
+    var contactData = this.view.OfferList.SegmentListOffers[indexOfSelectedRow];
+    kony.store.setItem("OfferDetails", contactData);
     var ntf = new kony.mvc.Navigation("frmViewCar");
     ntf.navigate();
   },

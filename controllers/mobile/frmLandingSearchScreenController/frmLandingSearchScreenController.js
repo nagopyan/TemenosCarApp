@@ -9,7 +9,7 @@ define({
       imgUrl:"https://cdn.gcdata.gr/data/photos/873b2a1fcf6a43248609caa5546b4a1c.jpg",
       year:"2016",
       description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      user: "",
+      user: "1",
     },
     {
       title: "Selling Тoyota Supra",
@@ -19,7 +19,7 @@ define({
       imgUrl:"https://www.autogreeknews.gr/wp-content/uploads/2019/07/Toyota_Supra_Anniversary_1.jpg",
       year:"2016",
       description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      user: "",
+      user: "2",
     },
     {
       title: "Selling Opel kadet",
@@ -29,7 +29,7 @@ define({
       imgUrl:"https://www.autogreeknews.gr/wp-content/uploads/2019/08/Opel-Kadett-1991-1.jpg",
       year:"2005",
       description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      user: "",
+      user: "3",
     },
     {
       title: "Selling Tesla S",
@@ -39,7 +39,7 @@ define({
       imgUrl:"https://www.autonomous.gr/wp-content/uploads/2020/09/tesla-model-s-plaid-in-red.jpg",
       year:"2021",
       description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      user: "",
+      user: "4",
     },
     {
       title: "Selling BMW M5",
@@ -49,7 +49,7 @@ define({
       imgUrl:"https://www.carscoops.com/wp-content/uploads/2020/06/BMW-M5-Facelift-1c-1024x555.jpg",
       year:"2014",
       description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      user: "",
+      user: "5",
     },
     {
       title: "Selling BMW X5",
@@ -59,7 +59,7 @@ define({
       imgUrl:"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/2016_BMW_X5_xDrive40d_M_Sport_Automatic_3.0_Front.jpg/1200px-2016_BMW_X5_xDrive40d_M_Sport_Automatic_3.0_Front.jpg",
       year:"2015",
       description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      user: "",
+      user: "6",
     },
     {
       title: "Selling Audi R8",
@@ -69,7 +69,7 @@ define({
       imgUrl:"https://www.newsauto.gr/wp-content/uploads/2021/04/210404002620_Audi-R8-V10-performance-quattro-1-1.jpg",
       year:"2021",
       description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-      user: "",
+      user: "7",
     }
 
   ],
