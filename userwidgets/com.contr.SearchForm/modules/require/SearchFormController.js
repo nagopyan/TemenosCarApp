@@ -45,21 +45,35 @@ define(function() {
       this._carModel="";
       this._fuelType="";
       this._cars = cars;
-      
+
       this.view.calendarYearFrom.dateFormat="yyyy";
 
       this.loadDataInSearchList(cars,this._carMake);
       this.view.listMake.onSelection = this.getCarMakeListValue;
-},
-    
+      this.view.listModel.onSelection = this.getCarModelListValue;
+      this.view.listFuelType.onSelection = this.getCarFuelListValue;
+    },
+
     getCarMakeListValue(){
       var listKey = this.view.listMake.selectedKey;
       this._carMake = listKey;
       var carModels = this.getCarModelsByCarMaker(this._cars, this._carMake);
       var modelsInKeyValue = this.getCarModelsInKeyValueFormat(carModels);
       this.view.listModel.masterData = modelsInKeyValue;
-      
-      alert(listKey + " carMake" + this._carMake);
+
+      //alert(listKey + " carMake" + this._carMake);
+      makeSelect = this.view.listMake.selectedKey;
+      alert(makeSelect);
+    },
+
+    getCarModelListValue: function() {
+      modelSelect = this.view.listModel.selectedKey;
+      alert(modelSelect);
+    },
+
+    getCarFuelListValue: function() {
+      fuelSelect = this.view.listFuelType.selectedKey;
+      alert(fuelSelect);
     },
 
     loadDataInSearchList(cars,carMaker){   

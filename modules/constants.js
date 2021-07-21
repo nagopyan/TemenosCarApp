@@ -1,5 +1,9 @@
-var loggedOutIcon = "https://www.seekpng.com/png/detail/271-2715133_icn-logout-comments-login-logout-icon-png.png";
-var loggedInIcon = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwBF8zlvk1idv1XDA_Ij5liPZP0cslGY67Cz7cLT6D08GmNckIitxkKcqTK-vQk06fTwU&usqp=CAU";
+var loggedOutIcon = kony.image.createImage("loginIcon.png");
+var loggedInIcon = kony.image.createImage("logoutIcon.png");
 var isLoggedIn = false;
 var userFound = false;
 var passFound = false;
+//listBox selected values
+var makeSelect = "";
+var modelSelect = "";
+var fuelSelect = "";

@@ -80,13 +80,12 @@ define({
 
   preShow: function(){
     kony.store.setItem("OfferDb", this.OffersDb);
-    this.view.SearchForm.onClickSearchButton = this.navigate;
+    this.view.SearchForm.findCarClick = this.navigate;
   },
 
   navigate: function(){
     var carMaker = this.view.SearchForm.listMake;
     kony.store.setItem("filterData",carMaker);
-    debugger;
     var nav = new kony.mvc.Navigation("frmSearchList");
     nav.navigate();
   }
