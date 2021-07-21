@@ -2,36 +2,36 @@ define(function() {
 
   var cars = [
     {
-      carMaker: "Tesla",
+      carMaker: "Audi",
       carModels: [
         {
-          carModel: "Model S"
+          carModel: "S3"
         },
         {
-          carModel: "Model 3"
+          carModel: "R8"
         },
         {
-          carModel: "Model X"
+          carModel: "A6"
         },
         {
-          carModel: "Model Y"
+          carModel: "Q8"
         }
       ]
     },
     {
-      carMaker: "Toyota",
+      carMaker: "BMw",
       carModels: [
         {
-          carModel: "Avalon"
+          carModel: "X5"
         },
         {
-          carModel: "Corolla"
+          carModel: "M5"
         },
         {
-          carModel: "Prius"
+          carModel: "M3"
         },
         {
-          carModel: "Sienna"
+          carModel: "E93"
         }
       ]
     }
@@ -41,7 +41,7 @@ define(function() {
 
   return {
     constructor: function(baseConfig, layoutConfig, pspConfig) {
-      this._carMake="Tesla";
+      this._carMake="Audi";
       this._carModel="";
       this._fuelType="";
       this._cars = cars;
