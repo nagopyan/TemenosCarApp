@@ -85,9 +85,9 @@ define({
 
   navigate: function(){
 
-    var maker = this.view.SearchForm.carMake;
-    var model = this.view.SearchForm.carModel;
-    var fuel = this.view.SearchForm.fuelType;
+    var maker = makeSelect;
+    var model = modelSelect;
+    var fuel = fuelSelect;
     kony.store.setItem("filterData",[maker,model,fuel]);
 
     var nav = new kony.mvc.Navigation("frmSearchList");
