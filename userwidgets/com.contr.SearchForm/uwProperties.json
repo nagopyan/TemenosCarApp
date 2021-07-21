@@ -40,10 +40,12 @@
                     "access": "Write",
                     "defaultValue": "\"\"",
                     "group": "General",
-                    "kuid": "h328628484f64d74a6220ee03f5bff2b",
-                    "originalPropertyKey": "listMake",
+
+                    "kuid": "c70d4120a8c74694bf2e5736a8973eac",
+                    "originalPropertyKey": "carMake",
+
                     "propertyIndex": 1,
-                    "propertyKey": "listMake",
+                    "propertyKey": "carMake",
                     "pw": {
                         "displayName": "carMake",
                         "uiRepresentation": "Label-Textbox"
@@ -56,10 +58,12 @@
                     "access": "Write",
                     "defaultValue": "\"\"",
                     "group": "General",
-                    "kuid": "ff9c468e99f84d839c7f915e7be78106",
-                    "originalPropertyKey": "listModel",
+
+                    "kuid": "bf2c0ce1ca9449de9279d8d9c49af13a",
+                    "originalPropertyKey": "carModel",
+
                     "propertyIndex": 2,
-                    "propertyKey": "listModel",
+                    "propertyKey": "carModel",
                     "pw": {
                         "displayName": "carModel",
                         "uiRepresentation": "Label-Textbox"
@@ -72,10 +76,12 @@
                     "access": "Write",
                     "defaultValue": "\"\"",
                     "group": "General",
-                    "kuid": "fb77edeeba0d4ea68d98e924042cd5c8",
-                    "originalPropertyKey": "listFuelType",
+
+                    "kuid": "c68c3f15942240d6b2629b7c6e092b9b",
+                    "originalPropertyKey": "fuelType",
+
                     "propertyIndex": 3,
-                    "propertyKey": "listFuelType",
+                    "propertyKey": "fuelType",
                     "pw": {
                         "displayName": "fuelType",
                         "uiRepresentation": "Label-Textbox"
@@ -88,7 +94,9 @@
                     "access": "Write",
                     "defaultValue": "",
                     "group": "General",
-                    "kuid": "e64300854a2a4ed2ae0bfb5d5052c551",
+
+                    "kuid": "be5e492b45a347629e781ba595c987bf",
+
                     "originalPropertyKey": "calendarYearFrom",
                     "propertyIndex": 4,
                     "propertyKey": "calendarYearFrom",
@@ -104,7 +112,9 @@
                     "access": "Write",
                     "defaultValue": "",
                     "group": "General",
-                    "kuid": "b528a00b646744ffa0051877a1669c85",
+
+                    "kuid": "d8e377ccc3a84ab5a390d7da400aec6b",
+
                     "originalPropertyKey": "calendarYearTo",
                     "propertyIndex": 5,
                     "propertyKey": "calendarYearTo",
