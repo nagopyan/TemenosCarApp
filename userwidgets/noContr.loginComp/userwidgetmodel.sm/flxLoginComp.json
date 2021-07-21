@@ -44,7 +44,8 @@
         "txtUsername",
         "lblPassword",
         "txtPassword",
-        "btnLogin"
+        "btnLogin",
+        "btnBack"
     ],
     "clipbounds": true,
     "containerweight": 100,

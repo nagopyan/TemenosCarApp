@@ -19,10 +19,10 @@
         0
     ],
     "_skin_": "sbb449a766d940e3b205da80318a6e3f",
-    "_text_": "Login",
+    "_text_": "Back",
     "_top_": {
         "type": "string",
-        "value": "75%"
+        "value": "87%"
     },
     "_width_": {
         "type": "string",
@@ -37,11 +37,11 @@
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sa667073e3c44b95a495dbe095bf99a9",
-    "id": "btnLogin",
+    "id": "btnBack",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "cb9126cac9004dd596096588497d3c15",
+    "kuid": "i2fa81dbf4f849898eb0cb192b59db17",
     "name": "kony.ui.Button",
     "parent": "flxLoginComp",
     "pf": "userwidgetmodel",
