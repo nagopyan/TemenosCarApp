@@ -4,22 +4,22 @@ define({
     {
       username: "nick",
       password: "asd",
-      user: "",
+      userId: "1",
     },
     {
       username: "rayko",
       password: "qwe",
-      user: "",
+      userId: "2",
     },
     {
-      username: "vasko@test.com",
-      password: "1q2w3e4r",
-      user: "",
+      username: "vasko",
+      password: "123",
+      userId: "3",
     },
     {
-      username: "petar@test.com",
-      password: "1q2w3e4r",
-      user: "",
+      username: "petar",
+      password: "zxc",
+      userId: "4",
     }
   ],
 

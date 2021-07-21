@@ -19,7 +19,6 @@ define({
       isLoggedIn = false;
       userFound = false;
       passFound = false;
-
       alert("Logout successfull!");
     }
 

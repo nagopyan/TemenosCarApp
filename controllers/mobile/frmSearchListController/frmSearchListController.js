@@ -5,13 +5,12 @@ define({
   formatedData: [],
 
   onViewCreated: function() {
-    this.view.preShow = this.preShow;
+    this.view.init = this.init;
   },
 
-  preShow: function() {
-    if(this.formatedData.length === 0){
-      this.formatedSegmentData.call(this,this.offersDb,this.formatedData);
-    }
+  init: function() {
+
+    this.formatedSegmentData.call(this,this.offersDb,this.formatedData);
     this.view.OfferList.SegmentListOffers.setData(this.formatedData);
     this.view.btnChange.onClick = this.navigate;
     this.view.OfferList.SegmentListOffers.onRowClick = this.onRowClicked;
@@ -25,12 +24,12 @@ define({
   },
 
   onRowClicked:function(seguiWidget, sectionNumber, rowNumber, selectedState){
- 
+
     kony.store.setItem("OfferDetails", this.offersDb[rowNumber]);
     var ntf = new kony.mvc.Navigation("frmViewCar");
     ntf.navigate();
   },
-  
+
 
 
   navigate:function(){
@@ -38,11 +37,11 @@ define({
     nav.navigate();
   },
 
-  formatedSegmentData: function(responseData,fomratedData) {
+  formatedSegmentData: function(responseData,formatedData) {
     var scope = this;
     responseData.forEach(function(offer) {
       if(offer.make.includes(makeSelect) && offer.model.includes(modelSelect) && offer.fuel.includes(fuelSelect)){
-        fomratedData.push({
+        formatedData.push({
           "LblOfferTitle": {"text": offer.title},
           "CarImage": {"src": offer.imgUrl},
           "LblMakeModel": {"text": offer.make + ", " + offer.model},
