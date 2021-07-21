@@ -64,6 +64,7 @@ define(function() {
       this._cars = cars;
 
       this.view.calendarYearFrom.dateFormat="yyyy";
+      this.view.calendarYearTo.dateFormat="yyyy";
 
       this.loadDataInSearchList(cars,this._carMake);
       this.view.listMake.onSelection = this.getCarMakeListValue;

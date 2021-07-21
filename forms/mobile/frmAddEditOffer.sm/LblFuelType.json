@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s839edbfa0714c62a0314f8d7923e117",
-    "_text_": "Car model",
+    "_text_": "Fuel type",
     "_top_": {
         "type": "string",
         "value": "3%"
