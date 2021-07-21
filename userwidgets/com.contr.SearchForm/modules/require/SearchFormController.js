@@ -58,7 +58,7 @@ define(function() {
 
   return {
     constructor: function(baseConfig, layoutConfig, pspConfig) {
-      this._carMake="Audi";
+      this._carMake="BMW";
       this._carModel="";
       this._fuelType="";
       this._cars = cars;
