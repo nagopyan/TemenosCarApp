@@ -11,7 +11,7 @@ onViewCreated: function() {
     this.view.lblMake.text = offer.make;
     this.view.lblModel.text = offer.model;
     this.view.lblYear.text = offer.year;
-    this.view.lblFuelType = offer.fuel;
+    this.view.lblFuelType.text = offer.fuel;
     this.view.textAreaDescription.text = offer.description;
     this.view.BackArrow.onTouchStart = this.goBack;
   },
