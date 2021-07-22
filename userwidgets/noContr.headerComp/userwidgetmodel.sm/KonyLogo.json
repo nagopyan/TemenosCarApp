@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "80%"
     },
     "_left_": {
         "type": "string",
-        "value": "80%"
+        "value": "4%"
     },
     "_margin_": [
         0,
@@ -28,14 +28,14 @@
         "value": "15%"
     },
     "_skin_": "seb56d7dd9334fb2a03ebc3eefa9b428",
-    "_src_": "loginicon.png",
+    "_src_": "kony_88.png",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "20%"
+        "value": "15%"
     },
     "canUpdateUI": true,
     "centery": {
@@ -50,12 +50,12 @@
         "templateType": "userwidgets",
         "topLevelBox": null
     },
-    "id": "imgLoginLogout",
+    "id": "KonyLogo",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e41a3be13e704434be02f35ca6bdaf08",
+    "kuid": "b56163c28b2d4b95b2f6fabc5d718148",
     "name": "kony.ui.Image2",
     "parent": "flxHeadComp",
     "pf": "userwidgetmodel",

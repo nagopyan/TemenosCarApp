@@ -49,6 +49,14 @@
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
+        "KonyLogo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ae64ca3ba5204c4da54d8280d43707a2",
+                "srcKUID": "b56163c28b2d4b95b2f6fabc5d718148",
+                "wType": "Image"
+            }
+        },
         "flxHeadComp": {
             "__events__": {},
             "__info__": {

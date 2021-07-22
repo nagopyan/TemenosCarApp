@@ -38,7 +38,8 @@
     "children": [
         "lblHeadTop",
         "lblHeadBottom",
-        "imgLoginLogout"
+        "imgLoginLogout",
+        "KonyLogo"
     ],
     "clipbounds": true,
     "containerweight": 100,
