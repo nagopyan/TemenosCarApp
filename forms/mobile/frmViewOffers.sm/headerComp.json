@@ -49,6 +49,14 @@
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
+        "KonyLogo": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "bb61e89b0b5b4cc8a6eda081f123f991",
+                "srcKUID": "b56163c28b2d4b95b2f6fabc5d718148",
+                "wType": "Image"
+            }
+        },
         "flxHeadComp": {
             "__events__": {},
             "__info__": {
@@ -64,6 +72,15 @@
                 "kuid": "ee825ddb31024a1c8756b0c4ae20bb53",
                 "srcKUID": "j118ec00f33a4481aaab327a4f044c40",
                 "wType": "FlexContainer"
+            },
+            "autogrowMode": {
+                "Default": 0
+            },
+            "height": {
+                "Default": {
+                    "type": "string",
+                    "value": "100%"
+                }
             },
             "zIndex": {
                 "Default": 2

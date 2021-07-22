@@ -6,9 +6,8 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "85.78%"
     },
-    "_iphone_": {},
     "_left_": {
         "type": "string",
         "value": "0dp"
@@ -27,14 +26,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sf76275b9da64e2baa19b35ac0d0fb6c",
-    "_spa_": {},
-    "_spaan_": {},
-    "_spabb_": {},
-    "_spaip_": {},
+    "_skin_": "saac9797c6844de1b5124cd6bac5f514",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "200dp"
     },
     "_vizProps_": {
         "hidewidgethierarchy": false
@@ -44,32 +39,23 @@
         "value": "100%"
     },
     "areflexpropsreferenced": false,
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "clipbounds": true,
     "containerweight": 0,
     "dataDiffs": {
-        "OfferFlxScrollContainer": {
-            "__events__": {},
-            "__info__": {
-                "kuid": "e580d115526649288f7d7d2a56903e8b",
-                "srcKUID": "bd0c1e0062aa4503850cdfa87ad48a43",
-                "wType": "FlexScrollContainer"
-            }
-        },
         "OfferList": {
             "__events__": {},
             "__info__": {
                 "isRoot": true,
-                "kuid": "g0f4ae7bfcf049aca7241abb714230bd",
+                "kuid": "bd0f8f9e872b4a9a9b3e25b36a1b6825",
                 "srcKUID": "d46605a665be4ef89b4798966ba48574",
-                "wType": "FlexContainer"
+                "wType": "FlexScrollContainer"
             }
         },
         "SegmentListOffers": {
             "__events__": {},
             "__info__": {
-                "kuid": "a1c304eae6da41058ffcc0d861348565",
+                "kuid": "b42a5df3dcbf499ea87ab74544ed2cc7",
                 "srcKUID": "e8387751fd454a138cf4da6f44d8fe18",
                 "wType": "Segment"
             },
@@ -90,7 +76,7 @@
     "iscustomlayout": false,
     "isdatareferenced": false,
     "isvisible": true,
-    "kuid": "g0f4ae7bfcf049aca7241abb714230bd",
+    "kuid": "bd0f8f9e872b4a9a9b3e25b36a1b6825",
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
@@ -99,6 +85,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
     "sourceUserWidget": "d46605a665be4ef89b4798966ba48574",

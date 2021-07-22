@@ -16,7 +16,7 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "89.89%"
     },
     "_indicator_": "none",
     "_left_": {
@@ -38,7 +38,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "30%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
@@ -297,6 +297,8 @@
         ],
         "rowTemplateId": "fa9d0905e6714b7fa04c877565c33be0",
         "rowtemplate": "RowFlexContainer",
+        "sectionHeaderTemplateId": null,
+        "selectionBehaviorConfig": null,
         "widgetdatamap": {
             "CarImage": "CarImage",
             "LblFuelType": "LblFuelType",
@@ -311,9 +313,10 @@
     "pageoffdotimage": "pageoffdot.png",
     "pageondotimage": "pageondot.png",
     "paginationconfig": {
-        "position": "bottom"
+        "position": "bottom",
+        "vdistance": 1
     },
-    "parent": "OfferFlxScrollContainer",
+    "parent": "OfferList",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -332,10 +335,16 @@
     "selecteditems": null,
     "selectedsectionindex": 0,
     "selectionbehavior": "default",
+    "selectionbehaviorconfig": null,
     "separatorcolor": "aaaaaa00",
     "separatorrequired": true,
     "separatorthickness": 1,
-    "showscrollbars": false,
+    "showscrollbars": true,
+    "swipeContext": {
+        "currentPage": 0,
+        "imageWidth": 972,
+        "widthRatio": 0
+    },
     "viewtype": "tableview",
     "vizProps": {},
     "wType": "Segment",

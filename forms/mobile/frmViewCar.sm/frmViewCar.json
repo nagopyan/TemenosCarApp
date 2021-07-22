@@ -30,7 +30,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "viewCarScrollContainer"
+        "viewCarScrollContainer",
+        "btnBack"
     ],
     "containerweight": 100,
     "controllerInfo": {

@@ -13,8 +13,8 @@ define({
     },
     {
       username: "vasko",
-      password: "123",
-      userId: "3",
+      password: "1q2w",
+      user: "",
     },
     {
       username: "petar",
@@ -73,6 +73,8 @@ define({
   navLogin : function() {
     var ntf = new kony.mvc.Navigation("frmViewOffers");
     ntf.navigate();
+    
+    kony.application.destroyForm("frmLogin");
   },
 
   navBack : function() {

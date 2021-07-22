@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
-        "value": "278dp"
+        "value": "80%"
     },
     "_margin_": [
         0,
@@ -23,6 +23,10 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "15%"
+    },
     "_skin_": "seb56d7dd9334fb2a03ebc3eefa9b428",
     "_src_": "loginicon.png",
     "_top_": {
@@ -31,13 +35,9 @@
     },
     "_width_": {
         "type": "string",
-        "value": "70dp"
+        "value": "20%"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "85%"
-    },
     "centery": {
         "type": "string",
         "value": "50%"

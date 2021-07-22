@@ -6,15 +6,21 @@ define({
   },
 
   preShow: function() {
-    this.view.calendarYearTo.dateFormat="yyyy";
-    //     var previousForm = kony.application.getPreviousForm.id;
-    //     if(previousForm === "frmViewOffers"){
-    //       this.view.AddSaveBtn.text = "Add";
-    //     }
+    this.view.calendarYearTo.dateFormat = "yyyy";
+
+
   },
 
   postShow: function() {
+    this.getPreviousForm();
+    this.onNavigate();
     this.view.AddSaveBtn.onTouchStart = this.pullInfo;
+
+  },
+
+  getPreviousForm: function () {
+    //Get the Previous form
+    previousForm = kony.application.getPreviousForm();
   },
 
   pullInfo: function() {
@@ -38,20 +44,32 @@ define({
       "year":   carInfo.carYear,
       "description": carInfo.carDesc
     });
-    alert(db);
+    //alert(db);
+    this.navigateBack();
   },
 
-  //   onNavigate: function(obj) {
-  //     if(kony.application.getPreviousForm.id === "frmViewManageOffer"){
+  onNavigate: function() {
+    var offer = kony.store.getItem("OfferDetails");
 
-  //       this.view.AddSaveBtn.text = "Save" ;
+    if(previousForm.id === "frmViewManageOffer"){
+      this.view.AddSaveBtn.text = "Save" ;
+      this.view.TextFieldOfferTitle.text = offer.title;
+      this.view.TextFieldImageUrl.text = offer.imgUrl;
+      this.view.TxtAreaDescription.text = offer.description;
 
-  //       this.view.TextFieldOfferTitle.text = obj.title;
-  //       this.view.TextFieldImageUrl.text = obj.imgUrl;
+      //       alert(this.view.DropDownCarMake.masterData[0]);
 
-  //     }else{
-  //       this.view.AddSaveBtn.text = "Add";
-  //     }
-  //   }
+    }else{
+
+      this.view.AddSaveBtn.text = "Add" ;
+
+    }
+
+  },
+
+  navigateBack: function() {
+    var move = new kony.mvc.Navigation("frmViewOffers");
+    move.navigate();
+  },
 
 });

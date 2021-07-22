@@ -6,10 +6,6 @@
         "type": "string",
         "value": "50dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "5%"
-    },
     "_margin_": [
         6,
         6,
@@ -24,15 +20,15 @@
     ],
     "_skin_": "sbb449a766d940e3b205da80318a6e3f",
     "_text_": "Edit",
-    "_top_": {
-        "type": "string",
-        "value": "0"
-    },
     "_width_": {
         "type": "string",
         "value": "30%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -40,7 +36,7 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sa667073e3c44b95a495dbe095bf99a9",
+    "focusskin": "sc5cf14c61864661adf0c353aa61cc34",
     "id": "btnEdit",
     "info": null,
     "iscustomlayout": false,

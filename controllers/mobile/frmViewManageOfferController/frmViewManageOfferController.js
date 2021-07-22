@@ -2,6 +2,7 @@ define({
 
   onViewCreated: function() {
     this.view.preShow = this.preShow;
+    this.view.postShow = this.postShow;
   },
 
   preShow:function(){
@@ -11,21 +12,24 @@ define({
     this.view.lblMake.text = offer.make;
     this.view.lblModel.text = offer.model;
     this.view.lblYear.text = offer.year;
-    this.view.lblFuelType = offer.fuel;
+    this.view.lblFuelType.text = offer.fuel;
     this.view.textAreaDescription.text = offer.description;
+  },
 
+  postShow: function() {
     this.view.btnEdit.onClick = this.navigate;
+    this.view.btnBack2.onClick = this.navigateBack;
   },
 
   navigate:function(){
-    var nav = new kony.mvc.Navigation("frmAddEditOffer");
-    var carObj = 
-        {
-          title: this.view.lblOfferTitle.text,
-          imgUrl: this.view.carImage.src,
-          make: this.view.lblMake.text
-        };
-    nav.navigate(carObj);
-  }
+    var offer = kony.store.getItem("OfferDetails");
+    var navix = new kony.mvc.Navigation("frmAddEditOffer");
+    navix.navigate();
+  },
+
+  navigateBack: function() {
+    var move = new kony.mvc.Navigation("frmViewOffers");
+    move.navigate();
+  },
 
 });

@@ -5,11 +5,11 @@
     "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "80%"
     },
     "_left_": {
-        "type": "number",
-        "value": "0"
+        "type": "string",
+        "value": "4%"
     },
     "_margin_": [
         0,
@@ -23,38 +23,42 @@
         0,
         0
     ],
+    "_right_": {
+        "type": "string",
+        "value": "15%"
+    },
     "_skin_": "seb56d7dd9334fb2a03ebc3eefa9b428",
-    "_src_": "imagedrag.png",
+    "_src_": "kony_88.png",
     "_top_": {
         "type": "string",
-        "value": "5%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "25%"
+        "value": "15%"
     },
     "canUpdateUI": true,
     "centery": {
         "type": "string",
         "value": "50%"
     },
-    "containerId": true,
     "containerweight": 100,
     "context": {
         "channel": "mobile",
+        "formID": "uwucad2699463e40c4adad2df962f53e7b",
         "platform": "android",
-        "templateType": "segments",
+        "templateType": "userwidgets",
         "topLevelBox": null
     },
-    "id": "CarImage",
+    "id": "KonyLogo",
     "imagescalemode": 1,
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a679a81d62f645f590ecad1f596be8c0",
+    "kuid": "b56163c28b2d4b95b2f6fabc5d718148",
     "name": "kony.ui.Image2",
-    "parent": "RowFlexContainer",
-    "pf": "RowTamplateCustom",
+    "parent": "flxHeadComp",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "srcType": 1,

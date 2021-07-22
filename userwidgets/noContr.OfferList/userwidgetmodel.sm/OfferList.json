@@ -3,11 +3,7 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "value": "90%"
     },
     "_margin_": [
         0,
@@ -23,41 +19,54 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sf76275b9da64e2baa19b35ac0d0fb6c",
+    "_skin_": "saac9797c6844de1b5124cd6bac5f514",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "160dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "OfferFlxScrollContainer"
+        "SegmentListOffers"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
+    "horizontalscrollindicator": true,
     "id": "OfferList",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "d46605a665be4ef89b4798966ba48574",
     "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
     "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
+    "track": false,
+    "verticalscrollindicator": true,
     "vizProps": {
         "hidewidgethierarchy": false
     },
-    "wType": "FlexContainer",
+    "wType": "FlexScrollContainer",
     "widgetalignment": 1
 }

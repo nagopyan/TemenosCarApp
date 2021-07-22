@@ -24,15 +24,15 @@
     },
     "_skin_": "se64a131bd1b43b0aec3a57611cc8543",
     "_text_": "Remove",
-    "_top_": {
-        "type": "string",
-        "value": "0"
-    },
     "_width_": {
         "type": "string",
         "value": "30%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "81%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -40,7 +40,7 @@
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
-    "focusskin": "sa667073e3c44b95a495dbe095bf99a9",
+    "focusskin": "saec5a09c45d4164be3e49ba4c9087be",
     "id": "btnRemove",
     "info": null,
     "iscustomlayout": false,

@@ -3,7 +3,7 @@ define({
   offersDb: kony.store.getItem("OfferDb"),
 
   formatedData: [],
- 
+
   formatedDb:[],
 
   onViewCreated: function() {
@@ -21,11 +21,11 @@ define({
       this.view.LblSearchResult.text = `Found ${this.formatedData.length --} results!`;
     }
     //Updates the Search info text with selected criteria.
-    this.view.LblSearchContent.text = "Search for " + makeSelect + " " + modelSelect + " " + fuelSelect;
+    this.view.LblSearchContent.text = "Search result: " + makeSelect + " " + modelSelect + " " + fuelSelect;
   },
 
   onRowClicked:function(seguiWidget, sectionNumber, rowNumber, selectedState){
-    
+
     kony.store.setItem("OfferDetails", this.formatedDb[rowNumber]);
     var ntf = new kony.mvc.Navigation("frmViewCar");
     ntf.navigate();
@@ -36,9 +36,13 @@ define({
   navigate:function(){
     var nav = new kony.mvc.Navigation("frmLandingSearchScreen");
     nav.navigate();
+    makeSelect = "";
+    modelSelect = "";
+    fuelSelect = "";
+    kony.application.destroyForm("frmSearchList");
   },
 
-  formatedSegmentData: function(responseData,fomratedData,formatedDb) {
+  formatedSegmentData: function(responseData,formatedData,formatedDb) {
     var scope = this;
     responseData.forEach(function(offer) {
       if(offer.make.includes(makeSelect) && offer.model.includes(modelSelect) && offer.fuel.includes(fuelSelect)){
@@ -46,10 +50,9 @@ define({
           "LblOfferTitle": {"text": offer.title},
           "CarImage": {"src": offer.imgUrl},
           "LblMakeModel": {"text": offer.make + ", " + offer.model},
-          "LblFuelType":{"txt": offer.fuel},
+          "LblFuelType": {"tеxt": offer.fuel},
           "LblYear": {"text": offer.year}
         });
-        
         formatedDb.push({
           title: offer.title,
           make: offer.make,
