@@ -11,7 +11,7 @@ define({
     this.view.lblMake.text = offer.make;
     this.view.lblModel.text = offer.model;
     this.view.lblYear.text = offer.year;
-    this.view.lblFuelType = offer.fuel;
+    this.view.lblFuelType.text = offer.fuel;
     this.view.textAreaDescription.text = offer.description;
 
     this.view.btnEdit.onClick = this.navigate;
@@ -19,13 +19,18 @@ define({
 
   navigate:function(){
     var nav = new kony.mvc.Navigation("frmAddEditOffer");
-    var carObj = 
-        {
-          title: this.view.lblOfferTitle.text,
-          imgUrl: this.view.carImage.src,
-          make: this.view.lblMake.text
-        };
-    nav.navigate(carObj);
+//     var carObj = 
+//         {
+//           title: this.view.lblOfferTitle.text,
+//           imgUrl: this.view.carImage.src,
+//           make: this.view.lblMake.text,
+//           year: this.view.lblYear.text,
+//           desc: this.view.textAreaDescription.text,
+//           fuel: this.view.lblFuelType.text
+//         };
+//     kony.store.setItem("carObj", carObj);
+//     alert(carObj.title);
+    nav.navigate();
   }
 
 });

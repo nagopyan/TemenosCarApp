@@ -9,14 +9,16 @@ define({
 
   preShow: function() {
     this.view.calendarYearTo.dateFormat = "yyyy";
+    this.getPreviousForm();
+    this.onNavigate();
+    
   },
 
   postShow: function() {
     //     previousForm = kony.application.getPreviousForm.id;
-
+	
     this.view.AddSaveBtn.onTouchStart = this.pullInfo;
-    this.getPreviousForm();
-    this.onNavigate();
+    
 
 
   },
@@ -24,7 +26,7 @@ define({
     //Get the Previous form
     previousForm = kony.application.getPreviousForm();
     //Alert the Previous form
-    alert("previousForm is::" + previousForm.id);
+//     alert("previousForm is::" + previousForm.id);
   },
 
   //   previousForm: function() {
@@ -57,18 +59,22 @@ define({
     alert(db);
   },
 
-  onNavigate: function(obj) {
-    alert(previousForm.id);
-    if(previousForm.id === "frmViewManageOffer"){
+  onNavigate: function() {
+    var offer = kony.store.getItem("OfferDetails");
+    
+    alert(offer);
+//     if(previousForm.id === "frmViewManageOffer"){
+// // 		carObj = kony.store.getItem("carObj");
+      
+//       this.view.AddSaveBtn.text = "Save" ;
 
-      this.view.AddSaveBtn.text = "Save" ;
+      
+//       this.view.TextFieldOfferTitle.text = 
+// //       this.view.TextFieldImageUrl.text = objTitle.imgUrl;
 
-      this.view.TextFieldOfferTitle.text = obj.title;
-      this.view.TextFieldImageUrl.text = obj.imgUrl;
-
-    }else{
-      this.view.AddSaveBtn.text = "Add";
-    }
+//     }else{
+//       this.view.AddSaveBtn.text = "Add";
+//     }
   }
 
 });
