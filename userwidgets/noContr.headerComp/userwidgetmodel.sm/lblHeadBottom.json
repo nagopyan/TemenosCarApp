@@ -6,10 +6,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_margin_": [
         1,
         1,
@@ -22,11 +18,11 @@
         0,
         0
     ],
-    "_skin_": "s75d38934ca74897bc99c5b4270ed150",
+    "_skin_": "s2dbc93d78b84e2ba37d20cb0ef6662d",
     "_text_": "Find from more than 5 offers today!",
     "_top_": {
         "type": "string",
-        "value": "50%"
+        "value": "55%"
     },
     "_width_": {
         "type": "ref",
@@ -40,8 +36,12 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "52%"
+    },
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "id": "lblHeadBottom",
     "info": null,
     "ipad": {

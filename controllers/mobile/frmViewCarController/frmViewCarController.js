@@ -13,7 +13,7 @@ onViewCreated: function() {
     this.view.lblYear.text = offer.year;
     this.view.lblFuelType.text = offer.fuel;
     this.view.textAreaDescription.text = offer.description;
-    this.view.BackArrow.onTouchStart = this.goBack;
+    this.view.btnBack.onClick = this.goBack;
   },
   
   goBack:function(){

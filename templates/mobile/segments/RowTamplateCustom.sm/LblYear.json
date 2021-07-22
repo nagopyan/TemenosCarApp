@@ -26,7 +26,7 @@
     "_text_": "Year",
     "_top_": {
         "type": "string",
-        "value": "31dp"
+        "value": "60%"
     },
     "_width_": {
         "type": "ref",

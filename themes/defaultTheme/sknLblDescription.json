@@ -5,7 +5,9 @@
     "isForked": false
   },
   "androidwearos": {
-    "font_name": "default"
+    "font_name": "default",
+    "font_size": 92,
+    "isForked": false
   },
   "background_color": "00000000",
   "bg_type": "one",

@@ -6,10 +6,6 @@
         "type": "ref",
         "value": "preferred"
     },
-    "_left_": {
-        "type": "string",
-        "value": "20dp"
-    },
     "_margin_": [
         1,
         1,
@@ -22,8 +18,8 @@
         0,
         0
     ],
-    "_skin_": "s839edbfa0714c62a0314f8d7923e117",
-    "_text_": "Temenos car - best car deals",
+    "_skin_": "s99769e960f14c31aaaa3db2d109fbad",
+    "_text_": "Temenos car - best deals",
     "_top_": {
         "type": "string",
         "value": "20%"
@@ -40,8 +36,12 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "51%"
+    },
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "id": "lblHeadTop",
     "info": null,
     "ipad": {
