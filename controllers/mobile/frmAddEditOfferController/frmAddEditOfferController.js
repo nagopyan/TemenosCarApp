@@ -1,21 +1,37 @@
 define({ 
 
+
+
   onViewCreated: function() {
     this.view.preShow = this.preShow;
     this.view.postShow = this.postShow;
   },
 
   preShow: function() {
-    this.view.calendarYearTo.dateFormat="yyyy";
-    //     var previousForm = kony.application.getPreviousForm.id;
-    //     if(previousForm === "frmViewOffers"){
-    //       this.view.AddSaveBtn.text = "Add";
-    //     }
+    this.view.calendarYearTo.dateFormat = "yyyy";
   },
 
   postShow: function() {
+    //     previousForm = kony.application.getPreviousForm.id;
+
     this.view.AddSaveBtn.onTouchStart = this.pullInfo;
+    this.getPreviousForm();
+    this.onNavigate();
+
+
   },
+  getPreviousForm: function () {
+    //Get the Previous form
+    previousForm = kony.application.getPreviousForm();
+    //Alert the Previous form
+    alert("previousForm is::" + previousForm.id);
+  },
+
+  //   previousForm: function() {
+  // 	var prevForm = kony.application.getPreviousForm().id;
+
+  //     alert(prevForm);
+  //   },
 
   pullInfo: function() {
     var carInfo = 
@@ -41,17 +57,18 @@ define({
     alert(db);
   },
 
-  //   onNavigate: function(obj) {
-  //     if(kony.application.getPreviousForm.id === "frmViewManageOffer"){
+  onNavigate: function(obj) {
+    alert(previousForm.id);
+    if(previousForm.id === "frmViewManageOffer"){
 
-  //       this.view.AddSaveBtn.text = "Save" ;
+      this.view.AddSaveBtn.text = "Save" ;
 
-  //       this.view.TextFieldOfferTitle.text = obj.title;
-  //       this.view.TextFieldImageUrl.text = obj.imgUrl;
+      this.view.TextFieldOfferTitle.text = obj.title;
+      this.view.TextFieldImageUrl.text = obj.imgUrl;
 
-  //     }else{
-  //       this.view.AddSaveBtn.text = "Add";
-  //     }
-  //   }
+    }else{
+      this.view.AddSaveBtn.text = "Add";
+    }
+  }
 
 });
