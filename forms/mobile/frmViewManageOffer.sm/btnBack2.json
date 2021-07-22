@@ -6,10 +6,6 @@
         "type": "string",
         "value": "50dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "52dp"
-    },
     "_margin_": [
         6,
         6,
@@ -23,30 +19,33 @@
         0
     ],
     "_skin_": "sbb449a766d940e3b205da80318a6e3f",
-    "_text_": "Add/Save",
-    "_top_": {
-        "type": "string",
-        "value": "3%"
-    },
+    "_text_": "Back",
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "30%"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "19%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
     "containerweight": 100,
     "contentalignment": 5,
     "displaytext": true,
     "focusskin": "sc5cf14c61864661adf0c353aa61cc34",
-    "id": "AddSaveBtn",
+    "id": "btnBack2",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a59a8c7a26eb44278d6656afc9b2681b",
+    "kuid": "edc84768834c40d6a7ec1ef27a928ca4",
     "name": "kony.ui.Button",
-    "parent": "AddEditScrollContainer",
-    "pf": "frmAddEditOffer",
+    "parent": "btnContainer",
+    "pf": "frmViewManageOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "wType": "Button",
-    "zindex": 1
+    "wType": "Button"
 }

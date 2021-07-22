@@ -84,5 +84,6 @@ define({
     kony.store.setItem("filterData",[maker,model,fuel]);
     var nav = new kony.mvc.Navigation("frmSearchList");
     nav.navigate();
+    kony.application.destroyForm("frmLandingSearchScreen");
   }
 });

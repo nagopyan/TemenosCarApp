@@ -6,9 +6,8 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "85.78%"
     },
-    "_iphone_": {},
     "_left_": {
         "type": "string",
         "value": "0dp"
@@ -27,14 +26,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sf76275b9da64e2baa19b35ac0d0fb6c",
-    "_spa_": {},
-    "_spaan_": {},
-    "_spabb_": {},
-    "_spaip_": {},
+    "_skin_": "saac9797c6844de1b5124cd6bac5f514",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "150dp"
     },
     "_vizProps_": {
         "hidewidgethierarchy": false
@@ -52,23 +47,17 @@
             "__events__": {},
             "__info__": {
                 "isRoot": true,
-                "kuid": "d6526982e7104b27a31e11756c2f5560",
+                "kuid": "c12a4e4003994884947b12ed490835c8",
                 "srcKUID": "d46605a665be4ef89b4798966ba48574",
-                "wType": "FlexContainer"
+                "wType": "FlexScrollContainer"
             }
         },
         "SegmentListOffers": {
             "__events__": {},
             "__info__": {
-                "kuid": "c3c97fe0b84a4db2892e38101f28a278",
+                "kuid": "cb0d82e2f09c4758925eb7460ed4b758",
                 "srcKUID": "e8387751fd454a138cf4da6f44d8fe18",
                 "wType": "Segment"
-            },
-            "top": {
-                "Default": {
-                    "type": "string",
-                    "value": "25%"
-                }
             }
         }
     },
@@ -77,9 +66,8 @@
     "info": null,
     "iscustomlayout": false,
     "isdatareferenced": false,
-    "issegmentchild": false,
     "isvisible": true,
-    "kuid": "d6526982e7104b27a31e11756c2f5560",
+    "kuid": "c12a4e4003994884947b12ed490835c8",
     "layouttype": 2,
     "masterType": 0,
     "name": "kony.ui.UserWidgetInstance",
@@ -88,6 +76,7 @@
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
     "sourceUserWidget": "d46605a665be4ef89b4798966ba48574",

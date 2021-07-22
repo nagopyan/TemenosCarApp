@@ -73,6 +73,8 @@ define({
   navLogin : function() {
     var ntf = new kony.mvc.Navigation("frmViewOffers");
     ntf.navigate();
+    
+    kony.application.destroyForm("frmLogin");
   },
 
   navBack : function() {

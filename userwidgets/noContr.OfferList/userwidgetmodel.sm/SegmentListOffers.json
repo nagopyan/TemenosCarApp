@@ -16,7 +16,7 @@
     ],
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "89.89%"
     },
     "_indicator_": "none",
     "_left_": {
@@ -38,7 +38,7 @@
     ],
     "_top_": {
         "type": "string",
-        "value": "30%"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
@@ -333,7 +333,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "selectionbehaviorconfig": null,
     "separatorcolor": "aaaaaa00",

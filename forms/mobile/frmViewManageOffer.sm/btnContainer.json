@@ -37,7 +37,8 @@
     "canUpdateUI": true,
     "children": [
         "btnEdit",
-        "btnRemove"
+        "btnRemove",
+        "btnBack2"
     ],
     "clipbounds": true,
     "containerweight": 100,

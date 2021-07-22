@@ -21,7 +21,7 @@ define({
       this.view.LblSearchResult.text = `Found ${this.formatedData.length --} results!`;
     }
     //Updates the Search info text with selected criteria.
-    this.view.LblSearchContent.text = "Search for " + makeSelect + " " + modelSelect + " " + fuelSelect;
+    this.view.LblSearchContent.text = "Search result: " + makeSelect + " " + modelSelect + " " + fuelSelect;
   },
 
   onRowClicked:function(seguiWidget, sectionNumber, rowNumber, selectedState){
@@ -34,6 +34,10 @@ define({
   navigate:function(){
     var nav = new kony.mvc.Navigation("frmLandingSearchScreen");
     nav.navigate();
+    makeSelect = "";
+    modelSelect = "";
+    fuelSelect = "";
+    kony.application.destroyForm("frmSearchList");
   },
 
   formatedSegmentData: function(responseData,formatedData,formatedDb) {

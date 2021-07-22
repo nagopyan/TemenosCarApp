@@ -31,10 +31,10 @@
     "canUpdateUI": true,
     "children": [
         "headerComp",
-        "OfferList",
         "LblSearchContent",
         "LblSearchResult",
-        "btnChange"
+        "btnChange",
+        "OfferList"
     ],
     "containerweight": 100,
     "controllerInfo": {
