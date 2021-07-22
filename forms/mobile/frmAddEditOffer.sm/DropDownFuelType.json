@@ -46,15 +46,15 @@
     "masterdata": [
         [
             "lb1",
-            "Placeholder One"
+            "Gasoline"
         ],
         [
             "lb2",
-            "Placeholder Two"
+            "Diesel"
         ],
         [
             "lb3",
-            "Placeholder Three"
+            "Electric"
         ]
     ],
     "name": "kony.ui.ListBox",
@@ -62,7 +62,6 @@
     "pf": "frmAddEditOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "selectedkey": null,
     "selectedkeys": null,
     "selectedkeyvalue": null,
     "selectedkeyvalues": null,

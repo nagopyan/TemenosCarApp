@@ -3,6 +3,7 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_android_": {},
+    "_androidwearos_": {},
     "_children_": [],
     "_height_": {
         "type": "string",
@@ -43,6 +44,8 @@
         "type": "string",
         "value": "100%"
     },
+    "_windows8_": {},
+    "_winphone8_": {},
     "areflexpropsreferenced": false,
     "autogrowmode": 0,
     "canUpdateUI": true,
