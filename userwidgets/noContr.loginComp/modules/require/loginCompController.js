@@ -12,8 +12,8 @@ define({
       user: "",
     },
     {
-      username: "vasko@test.com",
-      password: "1q2w3e4r",
+      username: "vasko",
+      password: "1q2w",
       user: "",
     },
     {

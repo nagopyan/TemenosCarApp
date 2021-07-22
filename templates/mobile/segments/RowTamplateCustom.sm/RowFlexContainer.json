@@ -36,8 +36,8 @@
     "canUpdateUI": true,
     "children": [
         "CarImage",
-        "LblYear",
         "LblFuelType",
+        "LblYear",
         "LblMakeModel",
         "LblOfferTitle"
     ],
@@ -53,6 +53,7 @@
     "enablescrolling": true,
     "id": "RowFlexContainer",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "dbcf8304aa704a9c81b85a822b7dce44",

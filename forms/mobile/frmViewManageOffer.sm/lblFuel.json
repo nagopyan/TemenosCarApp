@@ -23,7 +23,7 @@
         0
     ],
     "_skin_": "s017a4c624b7464a90b37b4eb5be8e70",
-    "_text_": "Fuel",
+    "_text_": "Fuel:",
     "_width_": {
         "type": "ref",
         "value": "preferred"
@@ -62,6 +62,7 @@
     "pf": "frmViewManageOffer",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "textstyle": {},
     "tooltip": "",
     "wType": "Label"
 }

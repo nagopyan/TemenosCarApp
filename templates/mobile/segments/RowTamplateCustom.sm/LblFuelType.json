@@ -23,10 +23,10 @@
         0
     ],
     "_skin_": "s446b16f00344c108b030a60060a15b3",
-    "_text_": "Fuel: Fuel Type",
+    "_text_": "FuelType",
     "_top_": {
         "type": "string",
-        "value": "65%"
+        "value": "63%"
     },
     "_width_": {
         "type": "ref",
